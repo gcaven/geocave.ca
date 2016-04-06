@@ -1,5 +1,6 @@
 import React from 'react/addons'
 import MiniRouter from 'react-mini-router'
+import Home from './Home'
 
 export default React.createClass({
   mixins: [MiniRouter.RouterMixin],
@@ -11,9 +12,7 @@ export default React.createClass({
   },
   home: function() {
     return (
-      <div>
-        <h1>Geoffrey Caven</h1>
-      </div>
+      <Home/>
     )
   },
   notFound: function() {

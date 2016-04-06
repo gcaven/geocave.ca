@@ -11,7 +11,7 @@ let Geocave = React.createClass({
         <Header/>
         <div className='belowHeader'>
           <Content/>
-          <Footer/>
+          {/*<Footer/>*/}
         </div>
       </div>
     )

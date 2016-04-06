@@ -4,9 +4,9 @@ import MiniRouter from 'react-mini-router'
 export default React.createClass({
   render: function() {
     return (
-      <div>
-        <h2>Header</h2>
-      </div>
+      <header>
+      	<h2>Header -> PDF resume link, PDF transcript link, Contact Me</h2>
+      </header>
     )
   }
 });
