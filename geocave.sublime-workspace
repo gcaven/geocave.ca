@@ -1,0 +1,1084 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mark",
+				"markers"
+			],
+			[
+				"show",
+				"showDefault"
+			],
+			[
+				"st",
+				"styles"
+			],
+			[
+				"QS",
+				"QSound"
+			],
+			[
+				"cur",
+				"currentHealth"
+			],
+			[
+				"actions",
+				"actionsLayout"
+			],
+			[
+				"from",
+				"fromStdString"
+			],
+			[
+				"ad",
+				"adjPlayerId"
+			],
+			[
+				"char",
+				"characterIsEnemy"
+			],
+			[
+				"cha",
+				"characterIsEnemy"
+			],
+			[
+				"ch",
+				"characterIsEnemy"
+			],
+			[
+				"chara",
+				"characterIndex"
+			],
+			[
+				"dma",
+				"damageInt"
+			],
+			[
+				"check",
+				"checkLocation"
+			],
+			[
+				"curre",
+				"currentCharacter"
+			],
+			[
+				"enem",
+				"enemyAttack"
+			],
+			[
+				"adj",
+				"adjPlayer"
+			],
+			[
+				"clo",
+				"closestPlayer"
+			],
+			[
+				"min",
+				"minDistance"
+			],
+			[
+				"dist",
+				"distancey"
+			],
+			[
+				"set",
+				"setItem"
+			],
+			[
+				"ta",
+				"table"
+			],
+			[
+				"QTa",
+				"QTableWidgetItem"
+			],
+			[
+				"close",
+				"closeY"
+			],
+			[
+				"clos",
+				"closeY"
+			],
+			[
+				"has",
+				"hasAttacked"
+			],
+			[
+				"Cure",
+				"currentCharacter"
+			],
+			[
+				"ranged",
+				"rangedTargetC"
+			],
+			[
+				"rangedTa",
+				"rangedTargetB"
+			],
+			[
+				"human",
+				"humanTargets"
+			],
+			[
+				"de",
+				"dexterity"
+			],
+			[
+				"ran",
+				"rangedTargetA"
+			],
+			[
+				"raged",
+				"rangedAttackA"
+			],
+			[
+				"c",
+				"character"
+			],
+			[
+				"attack",
+				"attackTargetASlot"
+			],
+			[
+				"rand",
+				"randomInt"
+			],
+			[
+				"make",
+				"makeAmove"
+			],
+			[
+				"is",
+				"isOccupied"
+			],
+			[
+				"x",
+				"xHum"
+			],
+			[
+				"take",
+				"takeItem"
+			],
+			[
+				"buttonMove",
+				"buttonMoveRight"
+			],
+			[
+				"buttonMov",
+				"buttonMoveUp"
+			],
+			[
+				"movement",
+				"movementLayout"
+			],
+			[
+				"to",
+				"to_string"
+			],
+			[
+				"genera",
+				"generateLocation"
+			],
+			[
+				"layout",
+				"layoutVert"
+			],
+			[
+				"turn",
+				"turnQueue"
+			],
+			[
+				"stats",
+				"statsString"
+			],
+			[
+				"button",
+				"buttonStart"
+			],
+			[
+				"end",
+				"endTurnSlot"
+			],
+			[
+				"current",
+				"currentCharacter"
+			],
+			[
+				"cr",
+				"currentCharacter"
+			],
+			[
+				"stast",
+				"statsString"
+			],
+			[
+				"theS",
+				"theSitch2"
+			],
+			[
+				"all",
+				"allyOrEnemy"
+			],
+			[
+				"statsLAbe",
+				"statsLabel"
+			],
+			[
+				"en",
+				"enqueue"
+			],
+			[
+				"p",
+				"prevPtr"
+			],
+			[
+				"nul",
+				"nullptr"
+			],
+			[
+				"Que",
+				"queueNode"
+			],
+			[
+				"n",
+				"nullptr"
+			],
+			[
+				"names",
+				"namesVector"
+			],
+			[
+				"setFix",
+				"setFixedWidth"
+			],
+			[
+				"QTable",
+				"QTableWidgetItem"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"QTal",
+				"QTableWidget"
+			],
+			[
+				"type",
+				"getTypeAsString"
+			],
+			[
+				"define",
+				"define"
+			],
+			[
+				"rang",
+				"rangedDefenseBonus"
+			],
+			[
+				"off",
+				"offenseBonus"
+			],
+			[
+				"defe",
+				"rangedDefenseBonus"
+			],
+			[
+				"rag",
+				"rangedOffenseBonus"
+			],
+			[
+				"usi",
+				"unsigned"
+			],
+			[
+				"newSize",
+				"newSizeY"
+			],
+			[
+				"ini",
+				"initializeBoard"
+			],
+			[
+				"array",
+				"arrayUnion"
+			],
+			[
+				"page",
+				"page_title"
+			],
+			[
+				"sub",
+				"submission_text"
+			],
+			[
+				"racia",
+				"racial_ids"
+			],
+			[
+				"racial",
+				"Racial"
+			],
+			[
+				"form",
+				"form_state"
+			],
+			[
+				"a5_cavn",
+				"a5_caven_physical"
+			],
+			[
+				"mysqli_fet",
+				"mysqli_fetch_assoc"
+			],
+			[
+				"cout",
+				"countdown"
+			],
+			[
+				"count",
+				"countdown"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"emai",
+				"email"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"che",
+				"checked"
+			],
+			[
+				"emia",
+				"email"
+			],
+			[
+				"mail",
+				"mailError"
+			],
+			[
+				"email",
+				"emailtoggle"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"bui",
+				"buildBoard"
+			],
+			[
+				"chec",
+				"checkDiag"
+			],
+			[
+				"res",
+				"reservation"
+			],
+			[
+				"tran",
+				"transactionCost"
+			],
+			[
+				"restau",
+				"restaurantDB"
+			],
+			[
+				"Item",
+				"itemPrice"
+			],
+			[
+				"REFE",
+				"REFERENCES"
+			],
+			[
+				"REFER",
+				"REFERENCING"
+			],
+			[
+				"get",
+				"getValue"
+			],
+			[
+				"l",
+				"len_left"
+			],
+			[
+				"len",
+				"len_right"
+			],
+			[
+				"mer",
+				"mergesort"
+			],
+			[
+				"meg",
+				"mergesort"
+			],
+			[
+				"let",
+				"letterfreq"
+			],
+			[
+				"le",
+				"letterpercent"
+			],
+			[
+				"Z",
+				"Z"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"I",
+				"i"
+			],
+			[
+				"fony",
+				"font-family"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"boe",
+				"border-top"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"A",
+				"alt	Attr"
+			],
+			[
+				"al",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Co-op report ideas",
+			"settings":
+			{
+				"buffer_size": 18,
+				"line_ending": "Unix",
+				"name": "Co-op report ideas"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 331,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/app.sass",
+			"settings":
+			{
+				"buffer_size": 4003,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 307.0,
+		"last_filter": "package control i",
+		"selected_items":
+		[
+			[
+				"package control i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 114.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/geoffreycaven/Documents/github/geocave.ca"
+	],
+	"file_history":
+	[
+		"/Users/geoffreycaven/Desktop/public_html/index.html",
+		"/Users/geoffreycaven/Desktop/public_html/colors.css",
+		"/Users/geoffreycaven/Desktop/CRNs tomorrow",
+		"/Users/geoffreycaven/Desktop/css/index.css",
+		"/Users/geoffreycaven/Desktop/index.html",
+		"/Users/geoffreycaven/Desktop/index.css",
+		"/private/var/folders/2q/363y9qkd53ndcqd7l9h_r49m0000gn/T/803da4ca-e386-4ed0-bcce-6f9ff44ea3bc/whitelist.json",
+		"/private/var/folders/2q/363y9qkd53ndcqd7l9h_r49m0000gn/T/65dfa2c9-6c25-4aa0-9991-3b31afce9aa4/public_html/map/markers.js",
+		"/private/var/folders/2q/363y9qkd53ndcqd7l9h_r49m0000gn/T/65dfa2c9-6c25-4aa0-9991-3b31afce9aa4/public_html/index.html",
+		"/Users/geoffreycaven/Dropbox/Transit/key.txt",
+		"/Users/geoffreycaven/Desktop/Facebook.html",
+		"/private/var/folders/2q/363y9qkd53ndcqd7l9h_r49m0000gn/T/803da4ca-e386-4ed0-bcce-6f9ff44ea3bc/server.properties",
+		"/Users/geoffreycaven/awesomeProject/index.android.js",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/Queue.cpp",
+		"/Users/geoffreycaven/Desktop/sysarch",
+		"/Users/geoffreycaven/Dropbox/Apps/Monospace/GOTY.txt",
+		"/Users/geoffreycaven/Dropbox/University/CSCI 3121/Presentation Research",
+		"/Users/geoffreycaven/Dropbox/University/CSCI 2121/passwords.txt",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/MainWindow.h",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/Tile.cpp",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/Queue.h",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/MainWindow.cpp",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/Human.cpp",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/Item.h",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/oop-project.pro",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/Helpers.h",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/main.cpp",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/Makefile",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/Patch.cpp",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/oop-project.pro.user",
+		"/Users/geoffreycaven/Desktop/postfix.cpp",
+		"/Users/geoffreycaven/Desktop/prefix.cpp",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/Board.h",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/oop-project.app/Contents/MacOS/names.txt",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/names.txt",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/Board.cpp",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/Tile.h",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/Human.h",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/Terrain.h",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/logic.cpp",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/mainold.cpp",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/baseobjects.h",
+		"/Users/geoffreycaven/Documents/github/CSCI1101-group_project/Text Adventure/src/Game.java",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/ncurses.cpp",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/oop-project.sublime-workspace",
+		"/Users/geoffreycaven/Documents/github/oop-project/src/oop-project.sublime-project",
+		"/Users/geoffreycaven/Documents/github/oop-project/README.md",
+		"/Users/geoffreycaven/git/oop-project/README.md",
+		"/Users/geoffreycaven/Documents/github/oop-project/fix.sh",
+		"/Users/geoffreycaven/Documents/github/oop-project/main.cpp",
+		"/Users/geoffreycaven/git/oop-project/morecurses.cpp",
+		"/Users/geoffreycaven/git/oop-project/ncurses.cpp",
+		"/Users/geoffreycaven/git/oop-project/test.cpp",
+		"/Users/geoffreycaven/Documents/github/oop-project/test.cpp",
+		"/Users/geoffreycaven/Desktop/co-op resubmission notes",
+		"/Users/geoffreycaven/Desktop/Vampire Inventory",
+		"/Users/geoffreycaven/Dropbox/Vampire Inventory",
+		"/Users/geoffreycaven/Dropbox/CS SUPER CREW/school garbagio/caven-dunn-jordon-OOP bruh/CSCI3132 Assignment 4.txt",
+		"/Users/geoffreycaven/Desktop/22 - 4 = 18 to spend",
+		"/Users/geoffreycaven/Dropbox/CS SUPER CREW/school garbagio/caven-dunn-jordon-OOP bruh/ass4.cpp",
+		"/Users/geoffreycaven/Dropbox/CS SUPER CREW/school garbagio/caven-dunn-jordon-OOP bruh/CSCI3132 Assignment 4",
+		"/Users/geoffreycaven/Dropbox/CS SUPER CREW/school garbagio/caven-dunn-jordon-OOP bruh/oop ass4 questions",
+		"/Users/geoffreycaven/Dropbox/CS SUPER CREW/school garbagio/caven-dunn-jordon-OOP bro!/ass3.cpp",
+		"/Users/geoffreycaven/Desktop/test.cpp",
+		"/Users/geoffreycaven/Dropbox/Randoms/sms-20150316150625.xml",
+		"/Users/geoffreycaven/Dropbox/Call Log & SMS Backup/sms-20130729151043.xml",
+		"/Users/geoffreycaven/Dropbox/University/CSCI 2121/nand2tetris/projects/01/DMux8Way.hdl",
+		"/Users/geoffreycaven/Dropbox/CS SUPER CREW/GroupChooser/src/ca/supercrew/Main.java",
+		"/Users/geoffreycaven/intricate-solutions/war/WEB-INF/jsp/ffv/summary draft.txt",
+		"/Users/geoffreycaven/intricate-solutions/war/WEB-INF/jsp/ffv/operationsDashboard.jsp",
+		"/Users/geoffreycaven/intricate-solutions/src/com/intricategroup/ffv/model/Converter.java",
+		"/Users/geoffreycaven/intricate-solutions/war/WEB-INF/erpServletContext.xml",
+		"/Users/geoffreycaven/Desktop/Conclusions",
+		"/Users/geoffreycaven/Desktop/images refs.txt",
+		"/Users/geoffreycaven/Dropbox/IntricateGroupHalifax/Scripts/account.sql",
+		"/Volumes/PostgreSQL 9.4.4-3/README",
+		"/Users/geoffreycaven/Dropbox/Transit/4spy7HBgduvqQ6BbMx4Y",
+		"/Users/geoffreycaven/Pictures/inspir/Your enemies have knocked you off your feet!.txt",
+		"/Users/geoffreycaven/Downloads/cobraclub_rc2b_mac-osx/cobraclub_readme.txt",
+		"/Users/geoffreycaven/Documents/6 Questions in 2 Hours",
+		"/Users/geoffreycaven/Desktop/1430581562.kalansphantom_vanircentaur.txt",
+		"/Users/geoffreycaven/Documents/local_webdev/geocave/a6_infx2670/app/Http/Controllers/EventController.php",
+		"/Users/geoffreycaven/Dropbox/University/CSCI 2121/nand2tetris/projects/01/DMux.hdl",
+		"/Users/geoffreycaven/Dropbox/University/CSCI 2121/nand2tetris/projects/01/DMux4Way.hdl",
+		"/Users/geoffreycaven/Dropbox/CS SUPER CREW/Matt & Geoff/notes.txt",
+		"/Users/geoffreycaven/Desktop/2670 last notes",
+		"/Volumes/vice-macosx-cocoa-i386+ppc-10.5-gcc40-2.4/Readme-MacOSX.txt",
+		"/Users/geoffreycaven/Documents/local_webdev/geocave/a6_infx2670/resources/views/events/edit.blade.php",
+		"/Users/geoffreycaven/Documents/local_webdev/geocave/a6_infx2670/app/Event.php",
+		"/Users/geoffreycaven/Documents/local_webdev/geocave/a6_infx2670/app/Http/Requests/CreateEvent.php",
+		"/Users/geoffreycaven/Documents/local_webdev/geocave/a6_infx2670/database/migrations/2015_04_01_181413_create_events_table.php",
+		"/Users/geoffreycaven/Documents/local_webdev/geocave/a6_infx2670/resources/views/app.blade.php",
+		"/Users/geoffreycaven/Documents/local_webdev/geocave/a6_infx2670/resources/views/home.blade.php",
+		"/Users/geoffreycaven/Documents/local_webdev/geocave/a6_infx2670/resources/views/events/disp.blade.php",
+		"/Users/geoffreycaven/Documents/local_webdev/geocave/a6_infx2670/.env",
+		"/Users/geoffreycaven/Documents/local_webdev/geocave/a6_infx2670/resources/views/events/page.blade.php",
+		"/Users/geoffreycaven/Documents/local_webdev/geocave/a6_infx2670/resources/assets/less/app.less",
+		"/Users/geoffreycaven/Documents/local_webdev/geocave/a6_infx2670/server.php",
+		"/Users/geoffreycaven/Documents/local_webdev/geocave/a6_infx2670/app/Http/Controllers/HomeController.php",
+		"/Users/geoffreycaven/Desktop/Read Threads With New Posts.html",
+		"/Users/geoffreycaven/Desktop/passwords.txt",
+		"/Users/geoffreycaven/Desktop/node.js",
+		"/Users/geoffreycaven/Desktop/evilcorp.c",
+		"/Users/geoffreycaven/Downloads/evilcorp",
+		"/Applications/MAMP/htdocs/a5/sites/all/modules/infx2670caven/infx2670caven.module",
+		"/Applications/MAMP/htdocs/a5/sites/all/modules/infx2670caven/infx2670caven.install",
+		"/Applications/MAMP/htdocs/a5/sites/all/modules/infx2670caven/infx2670caven.info",
+		"/Applications/MAMP/htdocs/a5/sites/all/modules/a5_caven/a5_caven.info",
+		"/Applications/MAMP/htdocs/a5/sites/all/modules/a5_caven/a5_caven.install",
+		"/Applications/MAMP/htdocs/a5/sites/all/modules/a5_caven/a5_caven.module",
+		"/Applications/MAMP/htdocs/a5/sites/all/modules/a5_caven/a5_caven.install.php",
+		"/Users/geoffreycaven/Downloads/infx2670/infx2670.info",
+		"/Users/geoffreycaven/Desktop/a5_caven.info",
+		"/Users/geoffreycaven/Desktop/a5_2670_caven.module",
+		"/Users/geoffreycaven/Downloads/coder/README.md",
+		"/Applications/MAMP/htdocs/a5/sites/default/settings.php",
+		"/Users/geoffreycaven/Desktop/192.168.56.101",
+		"/Users/geoffreycaven/Dropbox/University/CSCI 2100/Week 6 - Apartment Hunting",
+		"/Users/geoffreycaven/Desktop/Week 6 - Apartment Hunting",
+		"/Users/geoffreycaven/Dropbox/CS SUPER CREW/school garbagio/Short_Reports.txt",
+		"/Users/geoffreycaven/Desktop/hangman_2015-03-06.sql",
+		"/Users/geoffreycaven/Dropbox/newtab/js/scripts.js",
+		"/Applications/MAMP/htdocs/a4/config.php",
+		"/Applications/MAMP/htdocs/a3/registration.php",
+		"/Applications/MAMP/htdocs/a3/index.php",
+		"/Applications/MAMP/htdocs/a2/index.php",
+		"/Applications/MAMP/htdocs/a3/listing.php",
+		"/Applications/MAMP/htdocs/a3/deluser.php"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"attackSound.",
+			".getCha",
+			"theSitch",
+			"theS",
+			"rangedStop",
+			"0",
+			"currentCharacter.",
+			"6",
+			"4",
+			"2",
+			"humans[2]",
+			"humans[6]",
+			"humans[2]",
+			"HEAD",
+			"].y",
+			"].x",
+			"buttonM->",
+			"buttonR",
+			"buttonA",
+			"buttonA->",
+			"\"\n",
+			"item",
+			"hide",
+			"show",
+			"movementLayout",
+			"head",
+			"currentCharacter->",
+			"curr",
+			"temp.",
+			"Human *curr",
+			"setSec",
+			"std::to_",
+			"c++",
+			"setRe",
+			"qt/4.8.7_1",
+			"currentCharacter->",
+			"QMainWindow",
+			"vtable",
+			" ",
+			"qsrand",
+			"\\\n",
+			"put",
+			"get",
+			"Terrain",
+			"string",
+			"tile",
+			"put(x,y,tile)",
+			"$CORRECT_EMAIL",
+			"$CORRECT_NAME",
+			"$OLD_EMAIL",
+			"hole",
+			"dylan",
+			"339",
+			"	",
+			"  ",
+			";",
+			"'",
+			"  ",
+			"	",
+			"\"",
+			"a5",
+			"a5_caven",
+			".",
+			"	",
+			"checkbox_title_",
+			"bday",
+			" ",
+			"	",
+			"['occupation']",
+			"['name']",
+			"persin",
+			"100%",
+			"$guessed",
+			"$gu",
+			"$letters",
+			"letters",
+			"nameInput",
+			"fileUpload",
+			"@color",
+			"@curr",
+			"@COLOUR",
+			"@CURR",
+			"@COUNT",
+			"@R0",
+			"@color",
+			"@count",
+			"@curr",
+			"@0",
+			"@1",
+			"load",
+			"inc1",
+			"sw1",
+			"=",
+			"in1",
+			"Ram",
+			"reg",
+			"Register",
+			"sum",
+			"mid",
+			"GET",
+			"special requests",
+			"flavclass",
+			"nameclass",
+			"flaverror",
+			"namerro",
+			"cmterr",
+			"errclass",
+			"iscorrect",
+			"isCorrect",
+			"Pt",
+			"Pf",
+			"presel",
+			"extclass",
+			"exterror",
+			"[",
+			"]; ",
+			"toString",
+			"ALMSIVI",
+			".bsa",
+			"bliu",
+			"Montserrat",
+			"western",
+			"south_american",
+			"inca",
+			"INC=",
+			"\"INC\"",
+			"roman",
+			"athens"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"geoffreycaven@gmail.com",
+			"Geoffrey Caven",
+			"geoffreycaven@Air-Force-One.local"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_name": "Co-op report ideas",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								331,
+								331
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/styles/app.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4003,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								403,
+								403
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"syntax": "Packages/Rails/Ruby Haml.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 110.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 23.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "geocave.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Applications/MAMP/htdocs/a5/sites/all/modules/a5_caven/a5_caven.install"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

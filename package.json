@@ -1,0 +1,49 @@
+{
+  "name": "geocave",
+  "version": "0.0.1",
+  "description": "Geoffrey Caven personal/resume site",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "parched": "^0.3.4",
+    "parched-babel": "^0.1.3",
+    "parched-envify": "^0.1.1",
+    "parched-jade": "^0.1.3",
+    "parched-minify-css": "^0.1.1",
+    "parched-sass": "^0.1.2",
+    "parched-svg2png": "^0.1.8",
+    "parched-tasks-webapp": "^0.2.7",
+    "parched-uglify": "^0.1.1",
+    "parched-webfont": "^0.1.7",
+    "react": "^0.13.2",
+    "react-bootstrap": "0.26.4",
+    "react-mini-router": "1.1.6",
+    "react-swipeable": "^3.0.2",
+    "react-helmet": "^3.0.0",
+    "swipe-js-iso": "^2.0.1",
+    "reflux": "0.2.12"
+  },
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "keywords": [
+    "Trailer",
+    "Park",
+    "Boys"
+  ],
+  "author": "Geoffrey Caven <geoffreycaven@gmail.com>",
+  "license": "GNU Public",
+  "devDependencies": {
+    "babel-eslint": "^3.1.7",
+    "eslint": "^0.21.2",
+    "jasmine-core": "^2.1.2",
+    "karma": "^0.12.28",
+    "karma-browserify": "^1.0.0",
+    "karma-chrome-launcher": "^0.1.5",
+    "karma-coffee-preprocessor": "^0.2.1",
+    "karma-jasmine": "^0.3.1"
+  }
+}

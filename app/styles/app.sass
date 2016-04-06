@@ -1,0 +1,60 @@
+
+@import "../../bower_components/bourbon/app/assets/stylesheets/bourbon"
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap"
+@import "../../bower_components/fontawesome/scss/font-awesome"
+
+@import "mixins"
+@import "glyphs"
+
+html
+  height: 100%
+
+body
+  font-weight: 400
+  font-size: 12pt
+  -webkit-font-smoothing: antialiased
+  background-color: #1a1a1a
+  min-height: 100% !important
+  height: 100%
+  color: white
+
+.row
+  margin: 0
+  @include breakpoint(lg)
+    margin: inherit
+
+.universe
+  min-height: 100% !important
+  height: 100%
+
+.glyphicon
+  margin-right: 5px
+
+.no-mobile
+  display: none !important
+  @include breakpoint(lg)
+    display: inherit !important
+.mobile-only
+  display: inherit !important
+  @include breakpoint(lg)
+    display: none !important
+.tablet-only
+  display: none
+  @include breakpoint(md)
+    display: inherit
+  @include breakpoint(lg)
+    display: none
+.no-tablet
+  display: inherit
+  @include breakpoint(md)
+    display: none
+  @include breakpoint(lg)
+    display: inherit
+.no-phone
+  display: none !important
+  @include breakpoint(md)
+    display: inherit !important
+.phone-only
+  display: inherit !important
+  @include breakpoint(md)
+    display: none !important
