@@ -8,11 +8,12 @@ let Geocave = React.createClass({
   render: function() {
     return (
       <div className="universe">
-        <Header/>
+        {/*<Header/>*/}
         <div className='belowHeader'>
           <Content/>
           {/*<Footer/>*/}
         </div>
+
       </div>
     )
   }
