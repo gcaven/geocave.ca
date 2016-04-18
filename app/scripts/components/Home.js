@@ -5,11 +5,12 @@ export default React.createClass({
 	render: function() {
 		return (
 			<div className="homepage">
-				<div className="splash">
+					<video autoPlay="autoplay" loop="loop" className="splash">
+            <source src="videos/splash.mp4" type="video/mp4" />
+					</video>
 					<div className="splash-overlay">
 						<h1>Geoff Caven - Developer & Student</h1>
 					</div>
-				</div>
 				<div className="container belowFold-container">
 					<div className="homepage-belowFold">
 						<div className="pitch">
