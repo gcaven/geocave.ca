@@ -1,64 +1,59 @@
 import React from 'react/addons'
 import MiniRouter from 'react-mini-router'
+import ProjectFrame from './ProjectFrame'
+
+var projects = [
+	{title: "RZA Sports", cssClass: "rza", body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio nunc, tristique ut facilisis id, accumsan vel est. Nullam imperdiet vel lorem eget facilisis. Sed sem risus, porta ac justo at, vehicula feugiat est. In gravida purus lectus, et aliquet ipsum sollicitudin vel. Vestibulum venenatis nunc ut malesuada maximus. Nullam ac accumsan mauris, vel tincidunt mauris. Nulla metus ligula, posuere in turpis feugiat, laoreet commodo nibh. Donec varius tristique risus, ut vulputate quam sodales vitae. Nunc ornare hendrerit risus ut ultrices. Suspendisse tincidunt orci sem, viverra mattis est efficitur eget. Proin hendrerit finibus sapien, eu varius mauris scelerisque quis. Vestibulum at orci sit amet magna sodales mattis vel vel mauris. Nullam eget tristique magna, ut molestie elit. Phasellus ex ex, dapibus dignissim dui sit amet, rhoncus posuere massa."},
+	{title: "TCE Interactive Resources", cssClass: "tce", body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio nunc, tristique ut facilisis id, accumsan vel est. Nullam imperdiet vel lorem eget facilisis. Sed sem risus, porta ac justo at, vehicula feugiat est. In gravida purus lectus, et aliquet ipsum sollicitudin vel. Vestibulum venenatis nunc ut malesuada maximus. Nullam ac accumsan mauris, vel tincidunt mauris. Nulla metus ligula, posuere in turpis feugiat, laoreet commodo nibh. Donec varius tristique risus, ut vulputate quam sodales vitae. Nunc ornare hendrerit risus ut ultrices. Suspendisse tincidunt orci sem, viverra mattis est efficitur eget. Proin hendrerit finibus sapien, eu varius mauris scelerisque quis. Vestibulum at orci sit amet magna sodales mattis vel vel mauris. Nullam eget tristique magna, ut molestie elit. Phasellus ex ex, dapibus dignissim dui sit amet, rhoncus posuere massa."},
+	{title: "Brave New World", cssClass: "bnw", body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio nunc, tristique ut facilisis id, accumsan vel est. Nullam imperdiet vel lorem eget facilisis. Sed sem risus, porta ac justo at, vehicula feugiat est. In gravida purus lectus, et aliquet ipsum sollicitudin vel. Vestibulum venenatis nunc ut malesuada maximus. Nullam ac accumsan mauris, vel tincidunt mauris. Nulla metus ligula, posuere in turpis feugiat, laoreet commodo nibh. Donec varius tristique risus, ut vulputate quam sodales vitae. Nunc ornare hendrerit risus ut ultrices. Suspendisse tincidunt orci sem, viverra mattis est efficitur eget. Proin hendrerit finibus sapien, eu varius mauris scelerisque quis. Vestibulum at orci sit amet magna sodales mattis vel vel mauris. Nullam eget tristique magna, ut molestie elit. Phasellus ex ex, dapibus dignissim dui sit amet, rhoncus posuere massa."},
+	{title: "Trailer Park Boys", cssClass: "tpb", body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio nunc, tristique ut facilisis id, accumsan vel est. Nullam imperdiet vel lorem eget facilisis. Sed sem risus, porta ac justo at, vehicula feugiat est. In gravida purus lectus, et aliquet ipsum sollicitudin vel. Vestibulum venenatis nunc ut malesuada maximus. Nullam ac accumsan mauris, vel tincidunt mauris. Nulla metus ligula, posuere in turpis feugiat, laoreet commodo nibh. Donec varius tristique risus, ut vulputate quam sodales vitae. Nunc ornare hendrerit risus ut ultrices. Suspendisse tincidunt orci sem, viverra mattis est efficitur eget. Proin hendrerit finibus sapien, eu varius mauris scelerisque quis. Vestibulum at orci sit amet magna sodales mattis vel vel mauris. Nullam eget tristique magna, ut molestie elit. Phasellus ex ex, dapibus dignissim dui sit amet, rhoncus posuere massa."},
+	{title: "Space Viking", cssClass: "viking", body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio nunc, tristique ut facilisis id, accumsan vel est. Nullam imperdiet vel lorem eget facilisis. Sed sem risus, porta ac justo at, vehicula feugiat est. In gravida purus lectus, et aliquet ipsum sollicitudin vel. Vestibulum venenatis nunc ut malesuada maximus. Nullam ac accumsan mauris, vel tincidunt mauris. Nulla metus ligula, posuere in turpis feugiat, laoreet commodo nibh. Donec varius tristique risus, ut vulputate quam sodales vitae. Nunc ornare hendrerit risus ut ultrices. Suspendisse tincidunt orci sem, viverra mattis est efficitur eget. Proin hendrerit finibus sapien, eu varius mauris scelerisque quis. Vestibulum at orci sit amet magna sodales mattis vel vel mauris. Nullam eget tristique magna, ut molestie elit. Phasellus ex ex, dapibus dignissim dui sit amet, rhoncus posuere massa."}
+]
 
 export default React.createClass({
+	getInitialState: function() {
+		return {projectExpanded: false}
+	},
+	toggleProjectFrameTop: function() {
+		this.setState({projectExpanded: !this.state.projectExpanded});
+	},
+	renderProjectFrames: function() {
+		var frames = [];
+		for (var i = 0; i < 5; i++) {
+			frames.push(<ProjectFrame key={i} project={projects[i]} toggleTop={this.toggleProjectFrameTop}/>);
+		}
+		return frames;
+	},
 	render: function() {
+		frames = this.renderProjectFrames();
 		return (
 			<div className="homepage">
-					<video autoPlay="autoplay" loop="loop" className="splash">
-            <source src="videos/splash.mp4" type="video/mp4" />
-					</video>
-					<div className="splash-overlay">
-						<h1>Geoff Caven - Developer & Student</h1>
-					</div>
-				<div className="container belowFold-container">
-					<div className="homepage-belowFold">
-						<div className="pitch">
-							<h1>About Me</h1>
-							<p>
-								will work for money
-								<br/>
-								contact me!
-							</p>
-						</div>
-						<div className="skills">
-							<h1>Things I Can Do</h1>
+				<div className="pane leftPane">
+					<div className="titleBlock">
+						<h1>Geoffrey Caven</h1>
+						<h2>Full-Stack Web Developer</h2>
 
-							<div className="skillRow">
-								<div className="skillBlock html"/>
-								<div className="skillBlock css"/>
-								<div className="skillBlock js"/>
-								<div className="skillBlock react"/>
-								<div className="skillBlock sass"/>
-								<div className="skillBlock java"/>
-							</div>
-							<div className="skillRow">
-								<div className="skillBlock c"/>
-								<div className="skillBlock cplus"/>
-								<div className="skillBlock spring"/>
-								<div className="skillBlock postgres"/>
-								<div className="skillBlock mysql"/>
-								<div className="skillBlock laravel"/>
-							</div>
+						<div className="divider"></div>
 
-						</div>
-						<div className="projects">
-							<h1>Things I've Done</h1>
-
-							<div className="row">
-								<div className="col-sm-4 col-sm-offset-1 projectBlock">
-									<a href="www.trailerparkboys.com">Trailer Park Boys</a>
-								</div>
-								<div className="col-sm-2">
-
-								</div>
-								<div className="col-sm-4 projectBlock">
-
-								</div>
-							</div>
-
+						<div className="linkContainer">
+							<div className="mainLink-div resume"><a href="/files/resume.pdf" target="_blank" className="mainLink">Resume</a></div>
+							<div className="slash"><span>/</span></div>
+							<div className="mainLink-div github"><a href="https://github.com/gcaven" target="_blank" className="mainLink">Github</a></div>
+							<div className="slash"><span>/</span></div>
+							<div className="mainLink-div linkedin"><a href="http://linkedin.com" target="_blank" className="mainLink">LinkedIn</a></div>
 						</div>
 					</div>
+				</div>
+				<div className="pane rightPane">
+					{this.state.projectExpanded ?
+						<div className="aboveStack noHeight"/>
+					:
+						<div className="aboveStack"/>
+					}
+					<div className="projectStack">
+						{frames}
+					</div>
+					<div className="belowStack"/>
 				</div>
 			</div>
 		)
