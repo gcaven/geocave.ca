@@ -10,7 +10,8 @@ html
   height: 100%
 
 body
-  min-height: 100vh
+  height: 100vh
+  min-height: 600px
 
   text-align: center
 
@@ -34,10 +35,12 @@ body
     letter-spacing: 2px
 
   .pane
-    width: 50vw
+    width: 100vw
     height: 100vh
-    float: left
     position: relative
+    @include breakpoint(xlg)
+      width: 50vw
+      float: left
 
   .leftPane
 
@@ -100,55 +103,110 @@ body
     .projectStack
       min-height: 250px
       width: 100%
-      flex-direction: column
-      justify-content: center
 
       .projectFrame
-        flex: 1
         height: 50px
         width: 100%
         line-height: 50px
         transition: all 500ms
+        overflow: hidden
+        position: relative
+
+        .glyphicon-remove-circle
+          position: absolute
+          right: 30px
+          top: 30px
+          opacity: 0
+          cursor: pointer
+          transition: all 500ms
+          font-size: 3em
+          z-index: 1
+          margin-right: 0
+
+        .projectTitle
+          width: 100%
+          height: 50px
+          line-height: 50px
+          transition: all 500ms
+
+        .imagePane
+          float: left
+          width: 40%
+          height: calc(100vh - 250px)
+
+        .bodyCopy
+          text-align: left
+          float: left
+          width: 60%
+          height: calc(100vh - 250px)
+          font-size: 12pt
+          line-height: 30px
+          text-transform: none
+          font-family: 'Open Sans'
+          transition: all 500ms
+          padding: 20px 50px
+
+          .subTitle
+            font-weight: bold
+            letter-spacing: 1px
+
+          .projLink
+            display: block
+            font-size: 14pt
+            text-align: left
+            margin-top: 10px
+            text-transform: uppercase
+            .glyphicon
+              margin-left: 10px
 
         &.fullHeight
           height: calc(100vh - 200px)
-          font-size: 3em
-          line-height: 100px
+          cursor: default
+          .glyphicon-remove-circle
+            opacity: 1
+            cursor: pointer
+          .projectTitle
+            font-size: 3em
+            height: 100px
+            line-height: 100px
 
-          .bodyCopy
-            opacity: 0
-            font-size: 0.33em
-            line-height: 30px
-            text-transform: none
-            font-family: 'Open Sans'
-            transition: all 250ms
-            padding: 20px 50px
-            &.visible
-              opacity: 1
 
         &.rza
           background-color: #ef5f3a
           color: white
           font-family: 'Rubik'
           text-transform: uppercase
+          letter-spacing: 1px
+          a
+            color: white
 
         &.tce
           background-color: #ed1c24
           color: white
+          a
+            color: white
 
         &.bnw
           background-color: black
           color: #b1915c
           font-family: 'Raleway'
+          a
+            color: #b1915c
 
-        &.tpb
-          background-color: #d21e25
+        &.reddit
+          background-color: #4392F1
           color: white
+          font-family: 'Helvetica Neue', 'Helvetica'
+          letter-spacing: 1px
+          a
+            color: white
 
         &.viking
           background-color: #26C485
           color: black
           font-family: 'Source Code Pro'
+          a
+            color: black
 
 .universe
   min-height: 100% !important

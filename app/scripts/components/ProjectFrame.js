@@ -5,32 +5,26 @@ export default React.createClass({
     return {expanded: false};
   },
   toggleExpansion: function() {
-    this.setState({expanded: !this.state.expanded});
-    this.props.toggleTop();
-    var _this = this;
-    if (!this.state.expanded) {
-      setTimeout(function() {
-        console.log($('.' + _this.props.project.cssClass + '-body'));
-        $('.' + _this.props.project.cssClass + '-body').addClass('visible');
-      }, 600);
-    } else {
-      setTimeout(function() {
-        console.log($('.' + _this.props.project.cssClass + '-body'));
-        $('.' + _this.props.project.cssClass + '-body').removeClass('visible');
-      }, 0);
+    if (!this.props.otherPaneExpanded) {
+      this.setState({expanded: !this.state.expanded});
+      this.props.toggleTop();
     }
   },
 	render: function() {
 		return (
       <div>
         { this.state.expanded ?
-          <div
-            className={'projectFrame fullHeight ' + this.props.project.cssClass}
-            onClick={this.toggleExpansion}
-          >
-            <div>{this.props.project.title}</div>
+          <div className={'projectFrame fullHeight ' + this.props.project.cssClass}>
+            <div className={this.props.project.cssClass + '-title projectTitle'}>{this.props.project.title}</div>
+            <div
+              className="glyphicon glyphicon-remove-circle"
+              onClick={this.toggleExpansion}
+            />
+            <div className="imagePane"></div>
             <div className={this.props.project.cssClass + '-body bodyCopy'}>
+              <h3 className="subtitle">{this.props.project.subtitle}</h3>
               {this.props.project.body}
+              <a href={this.props.project.url} target="_blank" className="projLink">Check It Out<span className="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
             </div>
           </div>
         :
@@ -38,7 +32,14 @@ export default React.createClass({
             className={'projectFrame ' + this.props.project.cssClass}
             onClick={this.toggleExpansion}
           >
-            <div>{this.props.project.title}</div>
+            <div className={this.props.project.cssClass + '-title projectTitle'}>{this.props.project.title}</div>
+            <div className="glyphicon glyphicon-remove-circle"></div>
+            <div className="imagePane"></div>
+            <div className={this.props.project.cssClass + '-body bodyCopy'}>
+              <h3 className="subtitle">{this.props.project.subtitle}</h3>
+              {this.props.project.body}
+              <a href={this.props.project.url} target="_blank" className="projLink">Check It Out<span className="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+            </div>
           </div>
         }
       </div>
