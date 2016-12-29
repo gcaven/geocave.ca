@@ -23,16 +23,15 @@
     "react-spark-scroll-gsap": "3.0.0"
   },
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start"
-  },
-  "scripts": {
-    "test": "./node_modules/karma/bin/karma start"
+    "test": "./node_modules/karma/bin/karma start",
+    "deploy" : "gulp parched-clean && gulp parched-build && gh-pages -d build"
   },
   "keywords": [
   ],
   "author": "Geoffrey Caven <geoffreycaven@gmail.com>",
   "license": "MIT",
   "repository": "https://github.com/gcaven/geocave.ca",
+  "homepage": "https://gcaven.github.io/geocave.ca",
   "devDependencies": {
     "babel-eslint": "^3.1.7",
     "eslint": "^0.21.2",

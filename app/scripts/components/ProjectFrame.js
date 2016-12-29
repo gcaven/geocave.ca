@@ -19,10 +19,10 @@ export default React.createClass({
       return (
         <div className={'projectFrame fullHeight ' + this.props.project.cssClass}>
           <div className={this.props.project.cssClass + '-title projectTitle'}>{this.props.project.title}</div>
-          <div
-            className="glyphicon glyphicon-remove-circle"
-            onClick={this.shrink}
-          />
+          <div className='minimize-x' onClick={this.shrink}>
+            <div/>
+            <div/>
+          </div>
           <div className="imagePane"></div>
           <div className={this.props.project.cssClass + '-body bodyCopy'}>
             <h3 className="subtitle">{this.props.project.subtitle}</h3>
@@ -38,7 +38,10 @@ export default React.createClass({
           onClick={this.expand}
         >
           <div className={this.props.project.cssClass + '-title projectTitle'}>{this.props.project.title}</div>
-          <div className="glyphicon glyphicon-remove-circle"></div>
+          <div className='minimize-x' onClick={this.shrink}>
+            <div/>
+            <div/>
+          </div>
           <div className="imagePane"></div>
           <div className={this.props.project.cssClass + '-body bodyCopy'}>
             <h3 className="subtitle">{this.props.project.subtitle}</h3>

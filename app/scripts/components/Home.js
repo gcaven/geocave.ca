@@ -11,13 +11,6 @@ var projects = [
 		body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio nunc, tristique ut facilisis id, accumsan vel est. Nullam imperdiet vel lorem eget facilisis. Sed sem risus, porta ac justo at, vehicula feugiat est. In gravida purus lectus, et aliquet ipsum sollicitudin vel. Vestibulum venenatis nunc ut malesuada maximus. Nullam ac accumsan mauris, vel tincidunt mauris. Nulla metus ligula, posuere in turpis feugiat, laoreet commodo nibh. Donec varius tristique risus, ut vulputate quam sodales vitae. Nunc ornare hendrerit risus ut ultrices. Suspendisse tincidunt orci sem, viverra mattis est efficitur eget. Proin hendrerit finibus sapien, eu varius mauris scelerisque quis."
 	},
 	{
-		title: "TCE Interactive Resources",
-		cssClass: "tce",
-		subtitle: "Patriotic Development",
-		url: "http://www.thecanadianencyclopedia.ca/en/learningcentre/",
-		body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio nunc, tristique ut facilisis id, accumsan vel est. Nullam imperdiet vel lorem eget facilisis. Sed sem risus, porta ac justo at, vehicula feugiat est. In gravida purus lectus, et aliquet ipsum sollicitudin vel. Vestibulum venenatis nunc ut malesuada maximus. Nullam ac accumsan mauris, vel tincidunt mauris. Nulla metus ligula, posuere in turpis feugiat, laoreet commodo nibh. Donec varius tristique risus, ut vulputate quam sodales vitae. Nunc ornare hendrerit risus ut ultrices. Suspendisse tincidunt orci sem, viverra mattis est efficitur eget. Proin hendrerit finibus sapien, eu varius mauris scelerisque quis."
-	},
-	{
 		title: "Brave New World",
 		cssClass: "bnw",
 		subtitle: "Self-Promotion Taken to New Heights",
@@ -25,19 +18,26 @@ var projects = [
 		body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio nunc, tristique ut facilisis id, accumsan vel est. Nullam imperdiet vel lorem eget facilisis. Sed sem risus, porta ac justo at, vehicula feugiat est. In gravida purus lectus, et aliquet ipsum sollicitudin vel. Vestibulum venenatis nunc ut malesuada maximus. Nullam ac accumsan mauris, vel tincidunt mauris. Nulla metus ligula, posuere in turpis feugiat, laoreet commodo nibh. Donec varius tristique risus, ut vulputate quam sodales vitae. Nunc ornare hendrerit risus ut ultrices. Suspendisse tincidunt orci sem, viverra mattis est efficitur eget. Proin hendrerit finibus sapien, eu varius mauris scelerisque quis."
 	},
 	{
-		title: "Mercury for Reddit",
-		cssClass: "reddit",
-		subtitle: "The Frontpage of Your iPad",
-		url: "http://www.apple.com",
+		title: "TCE Interactive Resources",
+		cssClass: "tce",
+		subtitle: "A Patriotic Development",
+		url: "http://www.thecanadianencyclopedia.ca/en/learningcentre/",
 		body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio nunc, tristique ut facilisis id, accumsan vel est. Nullam imperdiet vel lorem eget facilisis. Sed sem risus, porta ac justo at, vehicula feugiat est. In gravida purus lectus, et aliquet ipsum sollicitudin vel. Vestibulum venenatis nunc ut malesuada maximus. Nullam ac accumsan mauris, vel tincidunt mauris. Nulla metus ligula, posuere in turpis feugiat, laoreet commodo nibh. Donec varius tristique risus, ut vulputate quam sodales vitae. Nunc ornare hendrerit risus ut ultrices. Suspendisse tincidunt orci sem, viverra mattis est efficitur eget. Proin hendrerit finibus sapien, eu varius mauris scelerisque quis."
 	},
-	{
-		title: "Space Viking",
-		cssClass: "viking",
-		subtitle: "Børk Børk",
-		url: "http://www.spaceviking.com",
-		body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio nunc, tristique ut facilisis id, accumsan vel est. Nullam imperdiet vel lorem eget facilisis. Sed sem risus, porta ac justo at, vehicula feugiat est. In gravida purus lectus, et aliquet ipsum sollicitudin vel. Vestibulum venenatis nunc ut malesuada maximus. Nullam ac accumsan mauris, vel tincidunt mauris. Nulla metus ligula, posuere in turpis feugiat, laoreet commodo nibh. Donec varius tristique risus, ut vulputate quam sodales vitae. Nunc ornare hendrerit risus ut ultrices. Suspendisse tincidunt orci sem, viverra mattis est efficitur eget. Proin hendrerit finibus sapien, eu varius mauris scelerisque quis."
-	}
+	// {
+	// 	title: "Mercury for Reddit",
+	// 	cssClass: "reddit",
+	// 	subtitle: "The Frontpage of Your iPad",
+	// 	url: "http://www.apple.com",
+	// 	body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio nunc, tristique ut facilisis id, accumsan vel est. Nullam imperdiet vel lorem eget facilisis. Sed sem risus, porta ac justo at, vehicula feugiat est. In gravida purus lectus, et aliquet ipsum sollicitudin vel. Vestibulum venenatis nunc ut malesuada maximus. Nullam ac accumsan mauris, vel tincidunt mauris. Nulla metus ligula, posuere in turpis feugiat, laoreet commodo nibh. Donec varius tristique risus, ut vulputate quam sodales vitae. Nunc ornare hendrerit risus ut ultrices. Suspendisse tincidunt orci sem, viverra mattis est efficitur eget. Proin hendrerit finibus sapien, eu varius mauris scelerisque quis."
+	// },
+	// {
+	// 	title: "Space Viking",
+	// 	cssClass: "viking",
+	// 	subtitle: "Børk Børk",
+	// 	url: "http://www.spaceviking.com",
+	// 	body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio nunc, tristique ut facilisis id, accumsan vel est. Nullam imperdiet vel lorem eget facilisis. Sed sem risus, porta ac justo at, vehicula feugiat est. In gravida purus lectus, et aliquet ipsum sollicitudin vel. Vestibulum venenatis nunc ut malesuada maximus. Nullam ac accumsan mauris, vel tincidunt mauris. Nulla metus ligula, posuere in turpis feugiat, laoreet commodo nibh. Donec varius tristique risus, ut vulputate quam sodales vitae. Nunc ornare hendrerit risus ut ultrices. Suspendisse tincidunt orci sem, viverra mattis est efficitur eget. Proin hendrerit finibus sapien, eu varius mauris scelerisque quis."
+	// }
 ]
 
 export default React.createClass({
@@ -49,7 +49,7 @@ export default React.createClass({
 	},
 	renderProjectFrames: function() {
 		var frames = [];
-		for (var i = 0; i < 5; i++) {
+		for (var i = 0; i < projects.length; i++) {
 			frames.push(<ProjectFrame key={i} project={projects[i]} toggleTop={this.toggleProjectFrameTop} otherPaneExpanded={this.state.projectExpanded}/>);
 		}
 		return frames;
@@ -61,7 +61,7 @@ export default React.createClass({
 				<div className="pane leftPane">
 					<div className="titleBlock">
 						<h1>Geoffrey Caven</h1>
-						<h2>He Makes Computer Stuff</h2>
+						<h2>I Make Computer Stuff</h2>
 
 						<div className="divider"></div>
 

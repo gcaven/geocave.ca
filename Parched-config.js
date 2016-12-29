@@ -12,7 +12,7 @@ module.exports = {
 
     bundles: {
       app: {
-        dest: 'public'
+        dest: 'build'
       },
     },
 
