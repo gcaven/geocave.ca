@@ -58,7 +58,7 @@ export default React.createClass({
 		frames = this.renderProjectFrames();
 		return (
 			<div className="homepage">
-				<div className="pane leftPane">
+				<div className={this.state.projectExpanded ? 'pane leftPane slideLeftMobile' : 'pane leftPane'}>
 					<div className="titleBlock">
 						<h1>Geoffrey Caven</h1>
 						<h2>I Make Computer Stuff</h2>

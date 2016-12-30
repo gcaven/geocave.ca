@@ -38,7 +38,7 @@ export default React.createClass({
           onClick={this.expand}
         >
           <div className={this.props.project.cssClass + '-title projectTitle'}>{this.props.project.title}</div>
-          <div className='minimize-x' onClick={this.shrink}>
+          <div className={this.props.otherPaneExpanded ? 'minimize-x hide-opacity' : 'minimize-x'} onClick={this.shrink}>
             <div/>
             <div/>
           </div>

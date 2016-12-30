@@ -35,14 +35,16 @@ body
     letter-spacing: 2px
 
   .pane
-    width: 100vw
     height: 100vh
     position: relative
-    @include breakpoint(xlg)
-      width: 50vw
-      float: left
+    float: left
 
   .leftPane
+    width: calc(100vw - 50px)
+    @include breakpoint(md)
+      width: calc(100vw - 100px)
+    @include breakpoint(xlg)
+      width: 50vw
 
     .titleBlock
       width: calc(100% - 100px)
@@ -86,8 +88,13 @@ body
 
 
   .rightPane
+    width: 50px
     max-height: 100vh
     overflow: hidden
+    @include breakpoint(md)
+      width: 100px
+    @include breakpoint(xlg)
+      width: 50vw
 
     .aboveStack
       height: calc(50% - 75px)
@@ -119,7 +126,6 @@ body
           top: 0px
           width: 50px
           height: 50px
-          opacity: 1
           cursor: pointer
           transition: all 500ms
           font-size: 3em
@@ -183,8 +189,10 @@ body
         &.fullHeight
           height: calc(100vh - 100px)
           cursor: default
+          width: 100vw
+          @include breakpoint(xlg)
+            width: 50vw
           .minimize-x
-            opacity: 1
             cursor: pointer
             top: 20px
             div
@@ -242,6 +250,9 @@ body
 
 .glyphicon
   margin-right: 5px
+
+.hide-opacity
+  opacity: 0
 
 .no-mobile
   display: none !important
