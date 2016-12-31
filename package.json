@@ -24,7 +24,7 @@
   },
   "scripts": {
     "test": "./node_modules/karma/bin/karma start",
-    "deploy" : "gulp parched-clean && gulp parched-build && gh-pages -d build"
+    "deploy" : "gulp parched-clean && NODE_ENV=production gulp parched-build && gh-pages -d build"
   },
   "keywords": [
   ],
