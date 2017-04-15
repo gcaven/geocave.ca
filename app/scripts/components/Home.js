@@ -61,7 +61,7 @@ export default React.createClass({
 				<div className={this.state.projectExpanded ? 'pane leftPane slideLeftMobile' : 'pane leftPane'}>
 					<div className="titleBlock">
 						<h1>Geoffrey Caven</h1>
-						<h2>I Make Computer Stuff</h2>
+						<h2>He Does What Nintendon't</h2>
 
 						<div className="divider"></div>
 
@@ -70,7 +70,7 @@ export default React.createClass({
 							<div className="slash"><span>/</span></div>
 							<div className="mainLink-div github"><a href="https://github.com/gcaven" target="_blank" className="mainLink">Github</a></div>
 							<div className="slash"><span>/</span></div>
-							<div className="mainLink-div linkedin"><a href="http://linkedin.com" target="_blank" className="mainLink">LinkedIn</a></div>
+							<div className="mainLink-div linkedin"><a href="http://www.linkedin.com/in/geoffcaven" target="_blank" className="mainLink">LinkedIn</a></div>
 						</div>
 					</div>
 				</div>
