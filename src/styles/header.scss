@@ -1,0 +1,37 @@
+.header {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 100%;
+  height: 80px;
+
+  background-color: rgba(0,0,0,0.5);
+  -webkit-backdrop-filter: blur(20px);
+  color: white;
+  z-index: 1;
+
+  .entry-container {
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    .entry {
+      display: inline-block;
+      text-transform: uppercase;
+      cursor: pointer;
+      padding: 10px 30px;
+      border-radius: 5px;
+      transition: background-color 150ms;
+
+      &:hover {
+        background-color: #FFFFFF50;
+
+      }
+
+    }
+  }
+}

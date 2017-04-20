@@ -1,0 +1,51 @@
+.hero {
+  background-color: #222;
+  background: linear-gradient(180deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.75) 100%), url("../assets/images/bg2.jpg") no-repeat;
+
+  height: 100vh;
+  color: white;
+  text-align: center;
+
+  .text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    h1 {
+      font-size: 40px;
+      font-weight: 100;
+
+      border-bottom: 1px solid white;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    h2 {
+      font-size: 25px;
+      font-weight: 300;
+
+      margin-top: 0px;
+    }
+  }
+
+  .chevron {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+
+    background-image: url("../assets/images/chevron-down.svg");
+    background-size: 40px 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    animation: chevron-animate infinite alternate 1s cubic-bezier(0.77, 0, 0.175, 1);
+  }
+}
+
+
+@keyframes chevron-animate {
+  from { transform: translate(-50%, 0px); }
+  to { transform: translate(-50%, 40px); }
+}

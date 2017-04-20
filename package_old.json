@@ -1,0 +1,45 @@
+{
+  "name": "geocave",
+  "version": "0.0.1",
+  "description": "Geoffrey Caven personal/resume site",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "parched": "^0.3.4",
+    "parched-babel": "^0.1.3",
+    "parched-envify": "^0.1.1",
+    "parched-jade": "^0.1.3",
+    "parched-minify-css": "^0.1.1",
+    "parched-sass": "^0.1.2",
+    "parched-tasks-webapp": "^0.2.7",
+    "parched-uglify": "^0.1.1",
+    "parched-webfont": "^0.1.7",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "react-bootstrap": "0.30.5",
+    "react-mini-router": "2.0.0",
+    "react-swipeable": "3.6.0",
+    "react-helmet": "3.1.0",
+    "react-spark-scroll-gsap": "3.0.0"
+  },
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start",
+    "deploy" : "gulp parched-clean && NODE_ENV=production gulp parched-build && gh-pages -d build"
+  },
+  "keywords": [
+  ],
+  "author": "Geoffrey Caven <geoffreycaven@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/gcaven/geocave.ca",
+  "homepage": "https://gcaven.github.io/geocave.ca",
+  "devDependencies": {
+    "babel-eslint": "^3.1.7",
+    "eslint": "^0.21.2",
+    "jasmine-core": "^2.1.2",
+    "karma": "^0.12.28",
+    "karma-browserify": "^1.0.0",
+    "karma-chrome-launcher": "^0.1.5",
+    "karma-coffee-preprocessor": "^0.2.1",
+    "karma-jasmine": "^0.3.1"
+  }
+}
