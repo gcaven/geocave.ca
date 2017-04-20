@@ -1,14 +1,14 @@
 Portfolio Site
 ==============
 
-# run for dev
+### run for dev
 
   npm start
 
-# build for prod
+### build for prod
 
   npm build
 
-# deploy to github pages
+### deploy to github pages
 
   npm deploy
