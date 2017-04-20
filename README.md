@@ -3,12 +3,18 @@ Portfolio Site
 
 ### run for dev
 
-  npm start
+```
+npm start
+```
 
 ### build for prod
 
-  npm build
+```
+npm build
+```
 
 ### deploy to github pages
 
-  npm deploy
+```
+npm deploy
+```
