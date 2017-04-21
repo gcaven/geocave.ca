@@ -1,13 +1,38 @@
-@import "shared.scss";
 @import "mixins.scss";
 
 @import "header.scss";
 @import "hero.scss";
+@import "navbar.scss";
 @import "below-fold.scss";
 
 .universe {
   font-family: 'Avenir Next';
   letter-spacing: 1px;
+  background-color: #101010;
+  color: white;
 
   height: 100%;
+
+  h1 {
+    font-weight: 100;
+    text-align: center;
+  }
+
+  .block {
+    padding-top: 100px;
+    min-height: 50vh;
+  }
+
+  .footer {
+    height: 50px;
+    line-height: 50px;
+    background-color: black;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    p {
+      margin: 0;
+    }
+  }
 }

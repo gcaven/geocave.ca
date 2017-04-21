@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+import NavBar from './navbar'
 import '../styles/App.css';
 
 class Hero extends Component {
@@ -8,6 +10,7 @@ class Hero extends Component {
         <div className="text-box">
           <h1>Geoffrey Caven</h1>
           <h2>Web & Mobile Developer</h2>
+          <NavBar/>
         </div>
       </div>
     );
