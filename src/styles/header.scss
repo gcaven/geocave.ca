@@ -11,7 +11,7 @@
   z-index: 9999;
   opacity: 0;
 
-  transition: all 250ms;
+  transition: all $easing-time;
 
   #brand {
     position: absolute;
@@ -19,6 +19,11 @@
     font-size: 2em;
     margin: 0;
     line-height: 80px;
+    display: none;
+
+    @include breakpoint(lg) {
+        display: block;
+    }
   }
 
   &.visible {

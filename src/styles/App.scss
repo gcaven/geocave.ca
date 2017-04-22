@@ -38,17 +38,27 @@
       width: 70%;
       margin: auto;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       align-items: flex-start;
       align-content: center;
       justify-content: center;
+
+      @include breakpoint(lg) {
+          flex-direction: row;
+      }
     }
 
     .third {
-      width: 33%;
+      width: 100%;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
+      margin-bottom: 40px;
+
+      @include breakpoint(lg) {
+        width: 33%;
+        margin-bottom: 0px;
+      }
 
       .third-title {
         width: 100%;

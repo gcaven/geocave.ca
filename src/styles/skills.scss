@@ -4,12 +4,21 @@
   text-align: center;
 
   img {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
+
+    @include breakpoint(xlg) {
+      width: 100px;
+      height: 100px;
+    };
   }
 
   .label {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1em;
+
+    @include breakpoint(xlg) {
+      font-size: 1.2em;
+    };
   }
 }

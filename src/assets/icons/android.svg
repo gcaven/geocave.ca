@@ -12,7 +12,7 @@
 <rect rx="22" height="182" width="182" y="20" x="-91"/>
 </g>
 </g>
-<g stroke="#101010" stroke-width="7.2" fill="#101010">
+<g stroke="#101010" stroke-width="4" fill="#101010">
 <path d="m-95 44.5h190"/><circle cx="-42" r="4"/><circle cx="42" r="4"/>
 </g>
 </svg>

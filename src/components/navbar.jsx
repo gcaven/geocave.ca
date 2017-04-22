@@ -7,7 +7,7 @@ class NavBar extends Component {
     return(
       <div className="nav-bar">
         <div className="entry-container">
-          <div className="entry active">Skills</div>
+          <div className="entry">Skills</div>
           <div className="entry">Portfolio</div>
           <div className="entry">Contact</div>
         </div>

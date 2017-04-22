@@ -1,48 +1,77 @@
+@import "shared.scss";
+
 $gradient-width: 300px;
 
-.portfolio-item {
+.projects {
   width: 70%;
-  height: 300px;
   margin: auto;
-  margin-bottom: 50px;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
 
-  .preview {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 50%;
-    height: 100%;
-    background-image: url("../assets/images/bg2.jpg");
-    background-size: cover;
-    z-index: 1;
+  @include breakpoint(lg) {
+    flex-direction: row;
   }
 
-  .text {
-    position: absolute;
-    height: 100%;
-    left: calc(50% - #{$gradient-width});
-    z-index: 10;
-    padding-left: 200px;
+  .portfolio-item {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 50px;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid $bg-black;
+    transition: border $easing-time;
 
-    .gradient {
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: $gradient-width;
-      height: 100%;
-      z-index: -1;
-      background: linear-gradient(90deg, rgba(16,16,16,0) 0%, rgba(16,16,16,1) 100%)
+    @include breakpoint(lg) {
+      width: 45%;
     }
-  }
 
-  h2 {
-    font-weight: 100;
-    margin-bottom: 10px;
-  }
-  h3 {
-    font-weight: 100;
-    margin-top: 0px;
-  }
+    &:hover {
+      border: 1px solid $accent-yellow;
+    }
 
+    .preview {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 50%;
+      height: 100%;
+      background-image: url("http://lorempixel.com/600/300/technics");
+      background-size: cover;
+      z-index: 1;
+    }
+
+    .text {
+      position: absolute;
+      height: 100%;
+      left: calc(50% - #{$gradient-width});
+      z-index: 10;
+      padding-left: 200px;
+
+      .gradient {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: calc(#{$gradient-width} + 1px);
+        height: 100%;
+        z-index: -1;
+        background: linear-gradient(90deg, rgba(16,16,16,0) 0%, rgba(16,16,16,1) 100%)
+      }
+    }
+
+    h2 {
+      font-weight: 100;
+      margin-bottom: 10px;
+    }
+    h3 {
+      font-weight: 100;
+      margin-top: 0px;
+      color: $accent-yellow;
+    }
+
+  }
 }

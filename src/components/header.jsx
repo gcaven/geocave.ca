@@ -35,7 +35,7 @@ class Header extends Component {
     const top = document.documentElement.scrollTop
       || document.body.parentNode.scrollTop
       || document.body.scrollTop
-
+      
     if (top > 500) {
       this.setState({headerClass: "visible"});
     } else {
