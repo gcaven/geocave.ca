@@ -1,0 +1,15 @@
+.skill-item {
+  width: calc(50% - 2px);
+  height: 150px;
+  text-align: center;
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .label {
+    text-align: center;
+    font-size: 1.2em;
+  }
+}

@@ -1,4 +1,21 @@
 import React, { Component } from 'react';
+import SkillItem from './skillitem';
+
+import ReactJS from '../assets/icons/reactjs.svg';
+import Node from '../assets/icons/nodejs.svg';
+import Django from '../assets/icons/django.svg';
+import Sass from '../assets/icons/sass.svg';
+import Mongo from '../assets/icons/mongodb.svg';
+import Spring from '../assets/icons/spring.svg';
+import Postgres from '../assets/icons/postgres-alt.svg';
+
+import Android from '../assets/icons/android.svg';
+import Swift from '../assets/icons/swift.svg';
+
+import AWS from '../assets/icons/aws.svg';
+import GCP from '../assets/icons/gcp.svg';
+import XCode from '../assets/icons/xcode.png';
+import AndroidStudio from '../assets/icons/androidstudio.svg';
 
 class Skills extends Component {
   render() {
@@ -10,64 +27,30 @@ class Skills extends Component {
           <div className="frontend third">
             <h2>Web</h2>
 
-            <div className="box">
-              React
-            </div>
-            <div className="box">
-              Node
-            </div>
-            <div className="box">
-              Django
-            </div>
-            <div className="box">
-              Sass
-            </div>
-            <div className="box">
-              Spring
-            </div>
-            <div className="box">
-              MongoDB
-            </div>
-            <div className="box">
-              PostgreSQL
-            </div>
+            <SkillItem label={"React"} icon={ReactJS}/>
+            <SkillItem label={"Node"} icon={Node}/>
+            <SkillItem label={"Django"} icon={Django}/>
+            <SkillItem label={"Sass"} icon={Sass}/>
+            <SkillItem label={"Spring"} icon={Spring}/>
+            <SkillItem label={"MongoDB"} icon={Mongo}/>
+            <SkillItem label={"PostgreSQL"} icon={Postgres}/>
           </div>
 
           <div className="backend third">
             <h2>Mobile</h2>
 
-            <div className="box">
-              React Native
-            </div>
-            <div className="box">
-              Android
-            </div>
-            <div className="box">
-              iOS with Swift
-            </div>
+            <SkillItem label={"React Native"} icon={ReactJS}/>
+            <SkillItem label={"Android"} icon={Android}/>
+            <SkillItem label={"iOS with Swift"} icon={Swift}/>
           </div>
 
           <div className="tools third">
             <h2>Tools</h2>
 
-            <div className="box">
-              AWS
-            </div>
-            <div className="box">
-              Google Cloud Platform
-            </div>
-            <div className="box">
-              Photoshop
-            </div>
-            <div className="box">
-              Git
-            </div>
-            <div className="box">
-              XCode
-            </div>
-            <div className="box">
-              Android Studio
-            </div>
+            <SkillItem label={"AWS"} icon={AWS}/>
+            <SkillItem label={"Google Cloud"} icon={GCP}/>
+            <SkillItem label={"XCode"} icon={XCode}/>
+            <SkillItem label={"Android Studio"} icon={AndroidStudio}/>
 
           </div>
         </div>

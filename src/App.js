@@ -7,10 +7,6 @@ import Contact from './components/contact';
 
 import './styles/App.css';
 
-// const projects = {
-//
-// }
-
 class App extends Component {
   render() {
     return (
