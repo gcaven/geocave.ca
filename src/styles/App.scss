@@ -21,6 +21,38 @@
   .block {
     padding-top: 100px;
     min-height: 50vh;
+
+    .third-row {
+      width: 70%;
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      align-content: center;
+      justify-content: center;
+    }
+
+    .third {
+      width: 33%;
+      border: 1px dashed white;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      h2 {
+        width: 100%;
+        text-align: center;
+        font-weight: 300;
+      }
+
+      .box {
+        width: calc(50% - 2px);
+        height: 150px;
+        border: 1px solid red;
+        text-align: center;
+      }
+
+    }
   }
 
   .footer {
