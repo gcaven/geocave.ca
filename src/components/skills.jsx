@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Title from './title';
 import SkillItem from './skillitem';
 
 import ReactJS from '../assets/icons/reactjs.svg';
@@ -21,11 +22,14 @@ class Skills extends Component {
   render() {
     return (
       <div className="skills block">
-        <h1>Skills</h1>
+        <Title text={"Skills"}/>
 
         <div className="third-row">
           <div className="frontend third">
-            <h2>Web</h2>
+            <div className="third-title">
+              <h2>Web</h2>
+              <div className="underline"/>
+            </div>
 
             <SkillItem label={"React"} icon={ReactJS}/>
             <SkillItem label={"Node"} icon={Node}/>
@@ -37,7 +41,10 @@ class Skills extends Component {
           </div>
 
           <div className="backend third">
-            <h2>Mobile</h2>
+            <div className="third-title">
+              <h2>Mobile</h2>
+              <div className="underline"/>
+            </div>
 
             <SkillItem label={"React Native"} icon={ReactJS}/>
             <SkillItem label={"Android"} icon={Android}/>
@@ -45,7 +52,10 @@ class Skills extends Component {
           </div>
 
           <div className="tools third">
-            <h2>Tools</h2>
+            <div className="third-title">
+              <h2>Tools</h2>
+              <div className="underline"/>
+            </div>
 
             <SkillItem label={"AWS"} icon={AWS}/>
             <SkillItem label={"Google Cloud"} icon={GCP}/>
@@ -54,7 +64,6 @@ class Skills extends Component {
 
           </div>
         </div>
-
       </div>
     );
   }

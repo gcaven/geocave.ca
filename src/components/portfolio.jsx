@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+import Title from './title';
 import PortfolioItem from './portfolioitem';
 
 const projects = [
@@ -55,7 +57,7 @@ class Portfolio extends Component {
     console.log(projectsRendered);
     return (
       <div className="portfolio block">
-        <h1>Portfolio</h1>
+        <Title text={"Portfolio"}/>
 
         <div className="projects">
           {projectsRendered}

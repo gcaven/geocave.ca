@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 
+import Title from './title';
+
 class Contact extends Component {
   render() {
     return (
       <div className="contact block">
-        <h1>Contact</h1>
+        <Title text={"Contact"}/>
       </div>
     );
   }

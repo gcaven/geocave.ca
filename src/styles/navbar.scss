@@ -1,3 +1,5 @@
+@import "shared.scss";
+
 .nav-bar {
   height: 100%;
 
@@ -22,6 +24,7 @@
 
       &:hover, &.active {
         background-color: #FFFFFF50;
+        color: $accent-yellow;
       }
     }
   }

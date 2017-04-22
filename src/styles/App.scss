@@ -1,5 +1,7 @@
 @import "mixins.scss";
+@import "shared.scss";
 
+@import "title.scss";
 @import "header.scss";
 @import "hero.scss";
 @import "navbar.scss";
@@ -10,7 +12,7 @@
 .universe {
   font-family: 'Avenir Next';
   letter-spacing: 1px;
-  background-color: #101010;
+  background-color: $bg-black;
   color: white;
 
   height: 100%;
@@ -48,11 +50,23 @@
       justify-content: center;
       flex-wrap: wrap;
 
-      h2 {
+      .third-title {
         width: 100%;
-        text-align: center;
-        font-weight: 400;
-        margin-bottom: 40px;
+
+        h2 {
+          width: 100%;
+          text-align: center;
+          font-weight: 400;
+          margin-bottom: 2px;
+        }
+
+        .underline {
+          height: 1px;
+          width: 40px;
+          margin: auto;
+          background-color: $accent-yellow;
+          margin-bottom: 40px;
+        }
       }
     }
   }
@@ -67,6 +81,11 @@
 
     p {
       margin: 0;
+      transition: all 250ms;
+
+      &:hover {
+        color: $accent-yellow;
+      }
     }
   }
 }
