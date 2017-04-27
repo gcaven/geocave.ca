@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { ScrollSpy, Events, animateScroll } from 'react-scroll';
+
 import Header from './components/header';
 import Hero from './components/hero';
 import Skills from './components/skills';
@@ -8,6 +10,29 @@ import Contact from './components/contact';
 import './styles/App.css';
 
 class App extends Component {
+  componentDidMount() {
+
+    Events.scrollEvent.register('begin', function(to, element) {
+      console.log("begin", arguments);
+    });
+
+    Events.scrollEvent.register('end', function(to, element) {
+      console.log("end", arguments);
+    });
+
+    ScrollSpy.update();
+
+  }
+
+  componentWillUnmount() {
+    Events.scrollEvent.remove('begin');
+    Events.scrollEvent.remove('end');
+  }
+
+  scrollToTop() {
+    animateScroll.scrollToTop();
+  }
+
   render() {
     return (
       <div className="universe">
@@ -19,7 +44,7 @@ class App extends Component {
           <Contact/>
         </div>
         <div className="footer">
-          <p>Back To Top</p>
+          <p onClick={this.scrollToTop}>Back To Top</p>
         </div>
       </div>
     );

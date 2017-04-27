@@ -22,7 +22,7 @@ import Heroku from '../assets/icons/heroku.svg';
 class Skills extends Component {
   render() {
     return (
-      <div className="skills block">
+      <div className="skills block" id="skills">
         <Title text={"Skills"}/>
 
         <div className="row">

@@ -10,7 +10,7 @@ import Twitter from '../assets/icons/twitter.svg';
 class Contact extends Component {
   render() {
     return (
-      <div className="contact block">
+      <div className="contact block" id="contact">
         <Title text={"Contact"}/>
         <div className="row">
 

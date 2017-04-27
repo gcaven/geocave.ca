@@ -85,7 +85,7 @@ class Portfolio extends Component {
     let projectsRendered = this.renderProjects();
     console.log(projectsRendered);
     return (
-      <div className="portfolio block">
+      <div className="portfolio block" id="portfolio">
         <Title text={"Portfolio"}/>
 
         <div className="projects">

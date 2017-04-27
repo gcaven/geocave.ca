@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-scroll';
 import '../styles/App.css';
 
 class NavBar extends Component {
@@ -7,9 +8,9 @@ class NavBar extends Component {
     return(
       <div className="nav-bar">
         <div className="entry-container">
-          <div className="entry">Skills</div>
-          <div className="entry">Portfolio</div>
-          <div className="entry">Contact</div>
+          <Link className="entry" activeClass="active" to="skills" spy={true} smooth={true}>Skills</Link>
+          <Link className="entry" activeClass="active" to="portfolio" spy={true} smooth={true}>Portfolio</Link>
+          <Link className="entry" activeClass="active" to="contact" spy={true} smooth={true}>Contact</Link>
         </div>
       </div>
     )
