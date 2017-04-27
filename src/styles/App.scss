@@ -8,6 +8,7 @@
 @import "below-fold.scss";
 @import "skills.scss";
 @import "portfolio.scss";
+@import "contact.scss";
 
 .universe {
   font-family: 'Avenir Next';
@@ -31,10 +32,14 @@
     text-align: center;
   }
 
+  a {
+    color: $accent-yellow;
+  }
+
   .block {
     padding-top: 100px;
 
-    .third-row {
+    .row {
       width: 70%;
       margin: auto;
       display: flex;
@@ -48,6 +53,38 @@
       }
     }
 
+    .title {
+      width: 100%;
+
+      h2 {
+        width: 100%;
+        text-align: center;
+        font-weight: 400;
+        margin-bottom: 2px;
+      }
+
+      .underline {
+        height: 1px;
+        width: 40px;
+        margin: auto;
+        background-color: $accent-yellow;
+        margin-bottom: 40px;
+      }
+    }
+
+    .half {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+
+      @include breakpoint(lg) {
+        width: 50%;
+        margin-bottom: 0px;
+      }
+    }
+
     .third {
       width: 100%;
       display: flex;
@@ -58,25 +95,6 @@
       @include breakpoint(lg) {
         width: 33%;
         margin-bottom: 0px;
-      }
-
-      .third-title {
-        width: 100%;
-
-        h2 {
-          width: 100%;
-          text-align: center;
-          font-weight: 400;
-          margin-bottom: 2px;
-        }
-
-        .underline {
-          height: 1px;
-          width: 40px;
-          margin: auto;
-          background-color: $accent-yellow;
-          margin-bottom: 40px;
-        }
       }
     }
   }

@@ -9,7 +9,8 @@
   "homepage": "https://gcaven.github.io/geocave.ca",
   "dependencies": {
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-inlinesvg": "^0.5.5"
   },
   "devDependencies": {
     "gh-pages": "^0.12.0",

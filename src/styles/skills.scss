@@ -1,3 +1,5 @@
+@import "mixins.scss";
+
 .skill-item {
   width: calc(50% - 2px);
   height: 150px;
@@ -20,5 +22,21 @@
     @include breakpoint(xlg) {
       font-size: 1.2em;
     };
+  }
+}
+
+.portfolio-item {
+  .skill-item {
+    width: 75px;
+    height: 75px;
+
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  .label {
+    font-size: 0.75em;
   }
 }

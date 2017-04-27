@@ -17,6 +17,7 @@ import AWS from '../assets/icons/aws.svg';
 import GCP from '../assets/icons/gcp.svg';
 import XCode from '../assets/icons/xcode.png';
 import AndroidStudio from '../assets/icons/androidstudio.svg';
+import Heroku from '../assets/icons/heroku.svg';
 
 class Skills extends Component {
   render() {
@@ -24,9 +25,9 @@ class Skills extends Component {
       <div className="skills block">
         <Title text={"Skills"}/>
 
-        <div className="third-row">
+        <div className="row">
           <div className="frontend third">
-            <div className="third-title">
+            <div className="title">
               <h2>Web</h2>
               <div className="underline"/>
             </div>
@@ -41,7 +42,7 @@ class Skills extends Component {
           </div>
 
           <div className="backend third">
-            <div className="third-title">
+            <div className="title">
               <h2>Mobile</h2>
               <div className="underline"/>
             </div>
@@ -52,7 +53,7 @@ class Skills extends Component {
           </div>
 
           <div className="tools third">
-            <div className="third-title">
+            <div className="title">
               <h2>Tools</h2>
               <div className="underline"/>
             </div>
@@ -61,7 +62,7 @@ class Skills extends Component {
             <SkillItem label={"Google Cloud"} icon={GCP}/>
             <SkillItem label={"XCode"} icon={XCode}/>
             <SkillItem label={"Android Studio"} icon={AndroidStudio}/>
-
+            <SkillItem label={"Heroku"} icon={Heroku}/>
           </div>
         </div>
       </div>

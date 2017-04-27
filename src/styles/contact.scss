@@ -1,0 +1,23 @@
+@import "shared.scss";
+
+.contact {
+  min-height: 50vh;
+
+  .social-icon {
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    display: block;
+
+    rect {
+      fill: #FFFFFF;
+      transition: fill $easing-time;
+    }
+
+    &:hover {
+      rect {
+        fill: $accent-yellow;
+      }
+    }
+  }
+}

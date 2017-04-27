@@ -3,16 +3,17 @@ import React, { Component } from 'react';
 class PortfolioItem extends Component {
   render() {
     return (
-      <div className="portfolio-item">
+      <a href={this.props.project.url} className="portfolio-item">
         <div className="preview">
-
+          <div className="text">
+            <h2>{this.props.project.title}</h2>
+            <h3>{this.props.project.subtitle}</h3>
+            <div className="skills-list">
+              {this.props.project.skills}
+            </div>
+          </div>
         </div>
-        <div className="text">
-          <div className="gradient"/>
-          <h2>{this.props.project.title}</h2>
-          <h3>{this.props.project.subtitle}</h3>
-        </div>
-      </div>
+      </a>
     );
   }
 }
