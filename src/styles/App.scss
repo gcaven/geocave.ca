@@ -37,11 +37,10 @@
   }
 
   .block {
-    padding-top: 100px;
     min-height: 100vh;
 
     .row {
-      width: 70%;
+      width: $content-width-mobile;
       margin: auto;
       display: flex;
       flex-direction: column;
@@ -49,8 +48,13 @@
       align-content: center;
       justify-content: center;
 
+      &.no-collapse {
+        flex-direction: row;
+      }
+
       @include breakpoint(lg) {
-          flex-direction: row;
+        width: 70%;
+        flex-direction: row;
       }
     }
 

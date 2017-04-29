@@ -9,7 +9,8 @@
   height: 80px;
 
   background-color: rgba(0,0,0,0.5);
-  -webkit-backdrop-filter: blur(20px);
+  //-webkit-backdrop-filter: blur(20px);
+  @include backdrop-blur(9998);
   color: white;
   z-index: 9999;
   opacity: 0;

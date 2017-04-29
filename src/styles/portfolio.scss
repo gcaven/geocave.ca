@@ -2,7 +2,7 @@
 @import "mixins.scss";
 
 .projects {
-  width: 70%;
+  width: $content-width-mobile;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -12,6 +12,7 @@
   flex-wrap: wrap;
 
   @include breakpoint(lg) {
+    width: 70%;
     flex-direction: row;
   }
 
@@ -29,16 +30,21 @@
     // Overwrite anchor tag css
     color: white;
 
-    @include breakpoint(lg) {
-      width: 45%;
-    }
-
     &:hover {
       border: 1px solid $accent-yellow;
-      .text {
-        transform: translateY(0);
+    }
+
+    @include breakpoint(lg) {
+      width: 45%;
+
+      &:hover {
+        .text {
+          transform: translateY(0);
+        }
       }
     }
+
+
 
     .preview {
       position: absolute;
@@ -55,15 +61,23 @@
       position: absolute;
       bottom: 0px;
       left: 0px;
-      width: 80%;
+      width: 100%;
       z-index: 10;
       padding: 20px;
       background-color: rgba(255,255,255,0.25);
-      -webkit-backdrop-filter: blur(20px) brightness(75%);
+      //-webkit-backdrop-filter: blur(20px) brightness(75%);
       box-sizing:border-box;
+      @include backdrop-blur(11);
 
-      transform: translateY(95px);
-      transition: transform $easing-time;
+      h2 {
+        margin-top: 0px;
+      }
+
+      @include breakpoint(lg) {
+        width: 80%;
+        transform: translateY(95px);
+        transition: transform $easing-time;
+      }
     }
 
     .skills-list {

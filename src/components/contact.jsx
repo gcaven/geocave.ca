@@ -28,7 +28,7 @@ class Contact extends Component {
               <h2>You can find me here</h2>
               <div className="underline"/>
 
-              <div className="row">
+              <div className="row no-collapse">
                 <div className="third">
                   <a href="https://www.linkedin.com/in/geoffcaven/">
                     <InlineSVG src={LinkedIn} className="social-icon"/>
