@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-scroll';
 import '../styles/App.css';
 
-class NavBar extends Component {
+class NavBar extends React.PureComponent {
 
   render() {
     return(

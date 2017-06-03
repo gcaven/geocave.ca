@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class SkillItem extends Component {
+class SkillItem extends React.PureComponent {
   render() {
     return (
       <div className="skill-item">

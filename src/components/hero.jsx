@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import NavBar from './navbar'
 import '../styles/App.css';
 
-class Hero extends Component {
+class Hero extends React.PureComponent {
   render() {
     return (
       <div className="hero">

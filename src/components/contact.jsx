@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-var InlineSVG = require('react-inlinesvg');
+import React from 'react';
+import InlineSVG from 'react-inlinesvg';
 
 import Title from './title';
 
 import LinkedIn from '../assets/icons/linkedin.svg';
 import Github from '../assets/icons/github.svg';
-import Twitter from '../assets/icons/twitter.svg';
+// import Twitter from '../assets/icons/twitter.svg';
 
-class Contact extends Component {
+class Contact extends React.PureComponent {
   render() {
     return (
       <div className="contact block" id="contact">
@@ -39,11 +39,11 @@ class Contact extends Component {
                     <InlineSVG src={Github} className="social-icon"/>
                   </a>
                 </div>
-                <div className="third">
+                {/* <div className="third">
                   <a href="https://twitter.com/geoffcaven">
                     <InlineSVG src={Twitter} className="social-icon"/>
                   </a>
-                </div>
+                </div> */}
               </div>
 
             </div>

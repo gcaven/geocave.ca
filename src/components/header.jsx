@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import NavBar from './navbar'
 import '../styles/App.css';
 
-class Header extends Component {
+class Header extends React.PureComponent {
   constructor(props) {
 		super(props);
 
@@ -35,7 +35,7 @@ class Header extends Component {
     const top = document.documentElement.scrollTop
       || document.body.parentNode.scrollTop
       || document.body.scrollTop
-      
+
     if (top > 500) {
       this.setState({headerClass: "visible"});
     } else {

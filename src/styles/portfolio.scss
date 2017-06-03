@@ -23,28 +23,28 @@
     margin-bottom: 50px;
     position: relative;
     cursor: pointer;
-    border: 1px solid $bg-black;
+    border: 1px solid white;
     transition: border $easing-time;
-    overflow: hidden;
-
     // Overwrite anchor tag css
     color: white;
+    overflow: hidden;
 
     &:hover {
       border: 1px solid $accent-yellow;
     }
 
     @include breakpoint(lg) {
+      border: 1px solid $bg-black;
       width: 45%;
 
       &:hover {
         .text {
           transform: translateY(0);
+          border-top: 1px solid $accent-yellow;
+          border-right: 1px solid $accent-yellow;
         }
       }
     }
-
-
 
     .preview {
       position: absolute;
@@ -54,7 +54,12 @@
       height: 100%;
       background-image: url("../assets/images/bg2.jpg");
       background-size: cover;
+      background-position: center;
       z-index: 1;
+
+      &.crapmap {
+        background-position: center -35px;
+      }
     }
 
     .text {
@@ -64,17 +69,19 @@
       width: 100%;
       z-index: 10;
       padding: 20px;
-      background-color: rgba(255,255,255,0.25);
+      background-color: rgba(13,13,13,0.95);
       //-webkit-backdrop-filter: blur(20px) brightness(75%);
-      box-sizing:border-box;
+      box-sizing: border-box;
       @include backdrop-blur(11);
-
       h2 {
         margin-top: 0px;
       }
 
       @include breakpoint(lg) {
+        background-color: $bg-black;
         width: 80%;
+        border-top: 1px solid white;
+        border-right: 1px solid white;
         transform: translateY(95px);
         transition: transform $easing-time;
       }

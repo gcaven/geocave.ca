@@ -13,49 +13,66 @@ import Mongo from '../assets/icons/mongodb.svg';
 import Android from '../assets/icons/android.svg';
 
 import AndroidStudio from '../assets/icons/androidstudio.svg';
-import Heroku from '../assets/icons/heroku.svg';
 
-const skill_items = {
-  "React": (<SkillItem label={"React"} icon={ReactJS}/>),
-  "Sass": (<SkillItem label={"Sass"} icon={Sass}/>),
-  "Django": (<SkillItem label={"Django"} icon={Django}/>),
-  "Android": (<SkillItem label={"Android"} icon={Android}/>),
-  "Node": (<SkillItem label={"Node"} icon={Node}/>),
-  "MongoDB": (<SkillItem label={"MongoDB"} icon={Mongo}/>),
-  "Android Studio": (<SkillItem label={"Android Studio"} icon={AndroidStudio}/>),
-  "Heroku": (<SkillItem label={"Heroku"} icon={Heroku}/>)
-}
+import rza from '../assets/images/rza.png';
+import bnw from '../assets/images/bnw.png';
+import tce from '../assets/images/tce.png';
+import crapmap from '../assets/images/crapmap.png';
+import caven from '../assets/images/caven.png';
 
 const projects = [
   {
     title: "RZA Sports",
     subtitle: "Bold Design for B-Ball",
     url: "http://rzasports.com",
-    skills: [skill_items["React"], skill_items["Sass"]]
+    skills: [
+      <SkillItem label={"React"} icon={ReactJS} key={0}/>,
+      <SkillItem label={"Sass"} icon={Sass} key={1}/>
+     ],
+    image: rza
   },
   {
     title: "TCE Interactive Resources",
     subtitle: "A Patriotic Development",
     url: "http://www.thecanadianencyclopedia.ca/en/learningcentre/",
-    skills: [skill_items["Django"], skill_items["Sass"]]
+    skills: [
+      <SkillItem label={"Django"} icon={Django} key={0}/>,
+      <SkillItem label={"Sass"} icon={Sass} key={1}/>
+    ],
+    image: tce
   },
   {
     title: "Brave New World",
     subtitle: "Self-Promotion Taken to New Heights",
     url: "http://bravenew.world",
-    skills: [skill_items["React"], skill_items["Sass"]]
+    skills: [
+      <SkillItem label={"React"} icon={ReactJS} key={0}/>,
+      <SkillItem label={"Sass"} icon={Sass} key={1}/>
+    ],
+    image: bnw
   },
   {
     title: "CrapMap",
     subtitle: "For When You Have To Go, On The Go",
     url: "https://github.com/salockhart/CSCI-4176-Project---Team-2",
-    skills: [skill_items["Android"], skill_items["Node"], skill_items["MongoDB"], skill_items["Android Studio"]]
+    skills: [
+      <SkillItem label={"Android"} icon={Android} key={0}/>,
+      <SkillItem label={"Node"} icon={Node} key={1}/>,
+      <SkillItem label={"MongoDB"} icon={Mongo} key={2}/>,
+      <SkillItem label={"Android Studio"} icon={AndroidStudio} key={3}/>
+    ],
+    image: crapmap,
+    isCrapMap: true
   },
   {
     title: "caven.codes",
     subtitle: "You're looking at it right now",
     url: "http://caven.codes",
-    skills: [skill_items["React"], skill_items["Sass"]]
+    skills: [
+      <SkillItem label={"React"} icon={ReactJS} key={0}/>,
+      <SkillItem label={"Sass"} icon={Sass} key={1}/>
+    ],
+    image: caven
   }
   // {
   //   title: "CotUDB",
@@ -72,24 +89,17 @@ const projects = [
 ]
 
 class Portfolio extends Component {
-  renderProjects() {
-    let projectsRendered = [];
-    for (var i = 0; i < projects.length; i++) {
-      projectsRendered.push(<PortfolioItem key={"project-" + i} project={projects[i]}/>);
-    }
-    console.log(projectsRendered);
-    return projectsRendered;
-  }
-
   render() {
-    let projectsRendered = this.renderProjects();
-    console.log(projectsRendered);
     return (
       <div className="portfolio block" id="portfolio">
         <Title text={"Portfolio"}/>
 
         <div className="projects">
-          {projectsRendered}
+          {projects.map((item,index) => {
+            return(
+              <PortfolioItem key={"project-" + index} project={projects[index]}/>
+            );
+          })}
         </div>
       </div>
     );

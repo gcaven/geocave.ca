@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Title from './title';
 import SkillItem from './skillitem';
 
@@ -19,7 +19,7 @@ import XCode from '../assets/icons/xcode.png';
 import AndroidStudio from '../assets/icons/androidstudio.svg';
 import Heroku from '../assets/icons/heroku.svg';
 
-class Skills extends Component {
+class Skills extends React.PureComponent {
   render() {
     return (
       <div className="skills block" id="skills">

@@ -1,3 +1,4 @@
+@import "mixins.scss";
 @import "shared.scss";
 
 .nav-bar {
@@ -15,6 +16,7 @@
     .entry {
       display: inline-block;
       font-size: 14px;
+      font-weight: 300;
       letter-spacing: 2px;
       color: white;
       text-transform: uppercase;
@@ -30,7 +32,7 @@
       }
 
       &:hover, &.active {
-        background-color: #FFFFFF50;
+        background-color: rgba(155,155,155,0.5);
         color: $accent-yellow;
       }
     }

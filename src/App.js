@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ScrollSpy, Events, animateScroll } from 'react-scroll';
+import { scrollSpy, Events, animateScroll } from 'react-scroll';
 
 import Header from './components/header';
 import Hero from './components/hero';
@@ -20,7 +20,7 @@ class App extends Component {
       console.log("end", arguments);
     });
 
-    ScrollSpy.update();
+    scrollSpy.update();
 
   }
 
