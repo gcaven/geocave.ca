@@ -83,12 +83,14 @@
       width: 100%;
       display: flex;
       justify-content: center;
+      text-align: center;
       flex-wrap: wrap;
       margin-bottom: 40px;
 
       @include breakpoint(lg) {
         width: 50%;
         margin-bottom: 0px;
+        text-align: left;
       }
     }
 
@@ -96,12 +98,14 @@
       width: 100%;
       display: flex;
       justify-content: center;
+      text-align: center;
       flex-wrap: wrap;
       margin-bottom: 40px;
 
       @include breakpoint(lg) {
         width: 33%;
         margin-bottom: 0px;
+        text-align: left;
       }
     }
   }
