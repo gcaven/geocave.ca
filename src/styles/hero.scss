@@ -2,7 +2,8 @@
 
 .hero {
   background-color: #222;
-  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(16,16,16,1) 100%), url("../assets/images/bg2.jpg") no-repeat;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 15%, rgba(16,16,16,1) 100%), url("../assets/images/bg2.jpg") no-repeat;
+  background-position: center;
 
   height: 100vh;
   color: white;
@@ -16,7 +17,7 @@
 
     h1 {
       font-size: 40px;
-      font-weight: 200;
+      font-weight: 300;
 
       border-bottom: 1px solid $accent-yellow;;
       padding-bottom: 10px;

@@ -30,12 +30,12 @@ class Contact extends React.PureComponent {
 
               <div className="row no-collapse">
                 <div className="third">
-                  <a href="https://www.linkedin.com/in/geoffcaven/">
+                  <a href="https://www.linkedin.com/in/geoffcaven/" target="_blank">
                     <InlineSVG src={LinkedIn} className="social-icon"/>
                   </a>
                 </div>
                 <div className="third">
-                  <a href="https://github.com/gcaven">
+                  <a href="https://github.com/gcaven" target="_blank">
                     <InlineSVG src={Github} className="social-icon"/>
                   </a>
                 </div>
