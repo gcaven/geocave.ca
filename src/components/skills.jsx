@@ -3,21 +3,22 @@ import Title from './title';
 import SkillItem from './skillitem';
 
 import ReactJS from '../assets/icons/reactjs.svg';
+import Redux from '../assets/icons/redux.svg';
 import Node from '../assets/icons/nodejs.svg';
 import Django from '../assets/icons/django.svg';
 import Sass from '../assets/icons/sass.svg';
 import Mongo from '../assets/icons/mongodb.svg';
-import Spring from '../assets/icons/spring.svg';
+// import Spring from '../assets/icons/spring.svg';
 import Postgres from '../assets/icons/postgres-alt.svg';
 
 import Android from '../assets/icons/android.svg';
-import Swift from '../assets/icons/swift.svg';
+// import Swift from '../assets/icons/swift.svg';
 
 import AWS from '../assets/icons/aws.svg';
 import GCP from '../assets/icons/gcp.svg';
-import XCode from '../assets/icons/xcode.png';
+// import XCode from '../assets/icons/xcode.png';
 import AndroidStudio from '../assets/icons/androidstudio.svg';
-import Heroku from '../assets/icons/heroku.svg';
+// import Heroku from '../assets/icons/heroku.svg';
 
 class Skills extends React.PureComponent {
   render() {
@@ -33,10 +34,11 @@ class Skills extends React.PureComponent {
             </div>
 
             <SkillItem label={"React"} icon={ReactJS}/>
+            <SkillItem label={"Redux"} icon={Redux}/>
             <SkillItem label={"Node"} icon={Node}/>
             <SkillItem label={"Django"} icon={Django}/>
             <SkillItem label={"Sass"} icon={Sass}/>
-            <SkillItem label={"Spring"} icon={Spring}/>
+            {/* <SkillItem label={"Spring"} icon={Spring}/> */}
             <SkillItem label={"MongoDB"} icon={Mongo}/>
             <SkillItem label={"PostgreSQL"} icon={Postgres}/>
           </div>
@@ -49,7 +51,7 @@ class Skills extends React.PureComponent {
 
             <SkillItem label={"React Native"} icon={ReactJS}/>
             <SkillItem label={"Android"} icon={Android}/>
-            <SkillItem label={"iOS with Swift"} icon={Swift}/>
+            {/* <SkillItem label={"iOS with Swift"} icon={Swift}/> */}
           </div>
 
           <div className="tools third">
@@ -60,9 +62,9 @@ class Skills extends React.PureComponent {
 
             <SkillItem label={"AWS"} icon={AWS}/>
             <SkillItem label={"Google Cloud"} icon={GCP}/>
-            <SkillItem label={"XCode"} icon={XCode}/>
+            {/* <SkillItem label={"XCode"} icon={XCode}/> */}
             <SkillItem label={"Android Studio"} icon={AndroidStudio}/>
-            <SkillItem label={"Heroku"} icon={Heroku}/>
+            {/* <SkillItem label={"Heroku"} icon={Heroku}/> */}
           </div>
         </div>
       </div>

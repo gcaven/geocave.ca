@@ -4,7 +4,8 @@ import Title from './title';
 import PortfolioItem from './portfolioitem';
 import SkillItem from './skillitem';
 
-import ReactJS from '../assets/icons/reactjs.svg'
+import ReactJS from '../assets/icons/reactjs.svg';
+import Redux from '../assets/icons/redux.svg';
 import Node from '../assets/icons/nodejs.svg';
 import Django from '../assets/icons/django.svg';
 import Sass from '../assets/icons/sass.svg';
@@ -14,13 +15,39 @@ import Android from '../assets/icons/android.svg';
 
 import AndroidStudio from '../assets/icons/androidstudio.svg';
 
-import rza from '../assets/images/rza.png';
-import bnw from '../assets/images/bnw.png';
-import tce from '../assets/images/tce.png';
-import crapmap from '../assets/images/crapmap.png';
-import caven from '../assets/images/caven.png';
+import cfretail from '../assets/images/cf-retail.jpg';
+import buk from '../assets/images/buk.jpg';
+import rza from '../assets/images/rza.jpg';
+import bnw from '../assets/images/bnw.jpg';
+import tce from '../assets/images/tce.jpg';
+import crapmap from '../assets/images/crapmap.jpg';
+import caven from '../assets/images/caven.jpg';
 
 const projects = [
+  {
+    title: "Cadillac Fairview Retail",
+    subtitle: "(Launching Soon)",
+    // url: "http://www.cfretail.ca/",
+    skills: [
+      <SkillItem label={"React"} icon={ReactJS} key={0}/>,
+      <SkillItem label={"Redux"} icon={Redux} key={1}/>,
+      <SkillItem label={"Node"} icon={Node} key={3}/>,
+      <SkillItem label={"MongoDB"} icon={Mongo} key={3}/>,
+     ],
+    image: cfretail
+  },
+  {
+    title: "Buk",
+    subtitle: "The best platform for food",
+    url: "https://www.bukapp.co/",
+    skills: [
+      <SkillItem label={"React"} icon={ReactJS} key={0}/>,
+      <SkillItem label={"Redux"} icon={Redux} key={1}/>,
+      <SkillItem label={"Sass"} icon={Sass} key={2}/>,
+      <SkillItem label={"Django"} icon={Django} key={3}/>,
+     ],
+    image: buk
+  },
   {
     title: "RZA Sports",
     subtitle: "Bold Design for B-Ball",
