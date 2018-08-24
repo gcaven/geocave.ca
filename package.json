@@ -6,7 +6,7 @@
   "author": "Geoffrey Caven <geoffreycaven@gmail.com>",
   "license": "MIT",
   "repository": "https://github.com/gcaven/geocave.ca",
-  "homepage": "https://gcaven.github.io/geocave.ca",
+  "homepage": "https://caven.codes",
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
@@ -14,10 +14,10 @@
     "react-scroll": "^1.5.2"
   },
   "devDependencies": {
-    "gh-pages": "^0.12.0",
+    "gh-pages": "1.2.0",
     "node-sass": "^4.5.2",
     "npm-run-all": "^4.0.2",
-    "react-scripts": "0.9.5"
+    "react-scripts": "^1.1.5"
   },
   "scripts": {
     "build-css": "node-sass src/ -o src/",

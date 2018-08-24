@@ -19,8 +19,8 @@ class Contact extends React.PureComponent {
               <h2>Want to work together?</h2>
               <div className="underline"/>
             </div>
-            <p>I'd love to hear from you, don't hesitate to get in touch. You can download a PDF of my resumé <a href="resume.pdf">here</a>, and find my email below.</p>
-            <p>email: <a href="mailto://geoffreycaven@gmail.com">geoffreycaven@gmail.com</a></p>
+            <p>I'd love to hear from you, don't hesitate to get in touch. You can download a PDF of my resumé <a href="resume.pdf" target="_blank" rel="noopener noreferrer">here</a>, and find my email below.</p>
+            <p>email: <a href="mailto:geoffreycaven@gmail.com">geoffreycaven@gmail.com</a></p>
           </div>
 
           <div className="social half">
@@ -30,12 +30,12 @@ class Contact extends React.PureComponent {
 
               <div className="row no-collapse">
                 <div className="third">
-                  <a href="https://www.linkedin.com/in/geoffcaven/" target="_blank">
+                  <a href="https://www.linkedin.com/in/geoffcaven/" target="_blank" rel="noopener noreferrer">
                     <InlineSVG src={LinkedIn} className="social-icon"/>
                   </a>
                 </div>
                 <div className="third">
-                  <a href="https://github.com/gcaven" target="_blank">
+                  <a href="https://github.com/gcaven" target="_blank" rel="noopener noreferrer">
                     <InlineSVG src={Github} className="social-icon"/>
                   </a>
                 </div>
