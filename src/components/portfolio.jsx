@@ -26,8 +26,8 @@ import caven from '../assets/images/caven.jpg';
 const projects = [
   {
     title: "Cadillac Fairview Retail",
-    subtitle: "(Launching Soon)",
-    // url: "http://www.cfretail.ca/",
+    subtitle: "A Little Retail Therapy",
+    url: "http://www.cfretail.ca/",
     skills: [
       <SkillItem label={"React"} icon={ReactJS} key={0}/>,
       <SkillItem label={"Redux"} icon={Redux} key={1}/>,
@@ -93,7 +93,7 @@ const projects = [
   },
   {
     title: "caven.codes",
-    subtitle: "You're looking at it right now",
+    subtitle: "You're Looking at it Right Now",
     url: "http://caven.codes",
     skills: [
       <SkillItem label={"React"} icon={ReactJS} key={0}/>,
