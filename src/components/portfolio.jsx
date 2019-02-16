@@ -10,11 +10,18 @@ import Node from '../assets/icons/nodejs.svg';
 import Django from '../assets/icons/django.svg';
 import Sass from '../assets/icons/sass.svg';
 import Mongo from '../assets/icons/mongodb.svg';
+import Apollo from '../assets/icons/apollo.svg';
+import GraphQL from '../assets/icons/graphql.svg';
+import Jekyll from '../assets/icons/jekyll.svg';
+import VanillaJS from '../assets/icons/js.svg';
+import VanillaCSS from '../assets/icons/css.svg';
 
 import Android from '../assets/icons/android.svg';
 
 import AndroidStudio from '../assets/icons/androidstudio.svg';
 
+import harbr from '../assets/images/harbr.png';
+import dloft from '../assets/images/dloft.jpg';
 import cfretail from '../assets/images/cf-retail.jpg';
 import buk from '../assets/images/buk.jpg';
 import rza from '../assets/images/rza.jpg';
@@ -25,20 +32,55 @@ import caven from '../assets/images/caven.jpg';
 
 const projects = [
   {
+    title: "Harbr Mobile",
+    subtitle: "Mobile Construction Management",
+    url: "http://www.harbr.com/",
+    skills: [
+      <SkillItem label={"React Native"} icon={ReactJS} key={0}/>,
+      <SkillItem label={"Redux"} icon={Redux} key={1}/>,
+      <SkillItem label={"Apollo"} icon={Apollo} key={2}/>,
+      <SkillItem label={"GraphQL"} icon={GraphQL} key={3}/>,
+     ],
+    image: harbr
+  },
+  {
+    title: "Harbr Platform",
+    subtitle: "Web Construction Management",
+    url: "http://www.harbr.com/",
+    skills: [
+      <SkillItem label={"React"} icon={ReactJS} key={0}/>,
+      <SkillItem label={"Redux"} icon={Redux} key={1}/>,
+      <SkillItem label={"Apollo"} icon={Apollo} key={2}/>,
+      <SkillItem label={"GraphQL"} icon={GraphQL} key={3}/>,
+     ],
+    image: harbr
+  },
+  {
+    title: "Deanne Loft Portfolio",
+    subtitle: "Helping to Land the Dream Job",
+    url: "http://www.deanneloft.com/",
+    skills: [
+      <SkillItem label={"Jekyll"} icon={Jekyll} key={0}/>,
+      <SkillItem label={"Vanilla JS"} icon={VanillaJS} key={1}/>,
+      <SkillItem label={"CSS3"} icon={VanillaCSS} key={2}/>,
+     ],
+    image: dloft
+  },
+  {
     title: "Cadillac Fairview Retail",
     subtitle: "A Little Retail Therapy",
     url: "http://www.cfretail.ca/",
     skills: [
       <SkillItem label={"React"} icon={ReactJS} key={0}/>,
       <SkillItem label={"Redux"} icon={Redux} key={1}/>,
-      <SkillItem label={"Node"} icon={Node} key={3}/>,
+      <SkillItem label={"Node"} icon={Node} key={2}/>,
       <SkillItem label={"MongoDB"} icon={Mongo} key={3}/>,
      ],
     image: cfretail
   },
   {
     title: "Buk",
-    subtitle: "The best platform for food",
+    subtitle: "The Best Platform For Food",
     url: "https://www.bukapp.co/",
     skills: [
       <SkillItem label={"React"} icon={ReactJS} key={0}/>,
@@ -93,7 +135,7 @@ const projects = [
   },
   {
     title: "caven.codes",
-    subtitle: "You're Looking at it Right Now",
+    subtitle: "You're looking at it right now",
     url: "http://caven.codes",
     skills: [
       <SkillItem label={"React"} icon={ReactJS} key={0}/>,

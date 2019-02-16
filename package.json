@@ -8,16 +8,16 @@
   "repository": "https://github.com/gcaven/geocave.ca",
   "homepage": "https://caven.codes",
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "react-inlinesvg": "^0.5.5",
-    "react-scroll": "^1.5.2"
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-inlinesvg": "^0.8.4",
+    "react-scroll": "^1.7.11"
   },
   "devDependencies": {
-    "gh-pages": "1.2.0",
-    "node-sass": "^4.5.2",
-    "npm-run-all": "^4.0.2",
-    "react-scripts": "^1.1.5"
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0",
+    "npm-run-all": "^4.1.5",
+    "react-scripts": "^2.1.5"
   },
   "scripts": {
     "build-css": "node-sass src/ -o src/",
@@ -31,5 +31,11 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

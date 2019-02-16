@@ -2,7 +2,7 @@
 
 .skill-item {
   width: calc(50% - 2px);
-  height: 150px;
+  height: 160px;
   text-align: center;
 
   img {
@@ -16,6 +16,7 @@
   }
 
   .label {
+    margin-top: 5px;
     text-align: center;
     font-size: 1em;
 
