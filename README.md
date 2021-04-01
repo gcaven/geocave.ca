@@ -4,17 +4,17 @@ Portfolio Site
 ### run for dev
 
 ```
-npm start
+yarn start
 ```
 
 ### build for prod
 
 ```
-npm build
+yarn build
 ```
 
 ### deploy to github pages
 
 ```
-npm deploy
+yarn deploy
 ```
