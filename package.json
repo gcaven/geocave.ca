@@ -1,6 +1,6 @@
 {
-  "name": "geocave",
-  "version": "0.0.1",
+  "name": "caven.codes",
+  "version": "2.0.0",
   "description": "Geoffrey Caven personal/resume site",
   "private": true,
   "author": "Geoffrey Caven <geoffreycaven@gmail.com>",
@@ -8,25 +8,17 @@
   "repository": "https://github.com/gcaven/geocave.ca",
   "homepage": "https://caven.codes",
   "dependencies": {
-    "react": "^16.8.2",
-    "react-dom": "^16.8.2",
-    "react-inlinesvg": "^0.8.4",
-    "react-scroll": "^1.7.11"
+    "next": "^10.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",
-    "node-sass": "^4.11.0",
-    "npm-run-all": "^4.1.5",
-    "react-scripts": "^2.1.5"
+    "gh-pages": "^3.1.0"
   },
   "scripts": {
-    "build-css": "node-sass src/ -o src/",
-    "watch-css": "npm run build-css && node-sass src/styles/ -o src/styles/ --watch --recursive",
-    "start-js": "react-scripts start",
-    "start": "npm-run-all -p watch-css start-js",
-    "build": "npm run build-css && react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "deploy": "NODE_ENV=production npm run build && gh-pages -d build"
   },
   "eslintConfig": {
