@@ -2,11 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './styles.module.scss';
 
-export interface HeadingProps {
-  tag: string,
-  children: React.ReactNode;
-};
-
 const Heading = (props: HeadingProps) => {
   const Tag = `${props.tag}` as keyof JSX.IntrinsicElements;
   return (
@@ -14,6 +9,11 @@ const Heading = (props: HeadingProps) => {
       {props.children}
     </Tag>
   );
+};
+
+export interface HeadingProps {
+  tag: string,
+  children: React.ReactNode;
 };
 
 Heading.propTypes = {

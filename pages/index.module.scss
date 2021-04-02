@@ -1,0 +1,30 @@
+.hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgContainer {
+  margin-bottom: 25px;
+}
+
+.image {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+.divider {
+  width: 150px;
+  height: 1px;
+  // background: ;
+}

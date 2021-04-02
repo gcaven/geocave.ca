@@ -7,6 +7,11 @@ html {
   --font-weight-bold: 700;
   --max-page-width: 1280px;
   --viewport-padding-lg: 25px;
+  --background: #2a2a2a;
+  --text: white;
+
+  background: var(--background);
+  color: var(--text);
 }
 
 @font-face {

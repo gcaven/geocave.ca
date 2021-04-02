@@ -6,6 +6,7 @@
 # dev
 src/**/*.css
 /.next
+/.next/*
 
 # testing
 /coverage
