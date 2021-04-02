@@ -1,0 +1,17 @@
+.header {
+  height: 80px;
+  background-color: #2a2a2a;
+  backdrop-filter: blur(20px);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.contents {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: var(--max-page-width);
+  padding: 0 var(--viewport-padding-lg);
+}
