@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import styles from './styles.module.scss';
 
-const Text = props => {
+const Text = (props: TextProps) => {
   return (
     <span 
       className={classnames(
@@ -21,9 +21,10 @@ const Text = props => {
   );
 }
 
-Text.propTypes = {
-  weight: PropTypes.string,
-  customStyles: PropTypes.array
+export interface TextProps {
+  weight: string,
+  customStyles: Array<string>,
+  children: React.ReactNode
 };
 
 Text.defaultProps = {

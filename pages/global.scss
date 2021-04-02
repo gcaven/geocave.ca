@@ -1,6 +1,7 @@
 html {
   font-size: 16px;
-  font-family: 'Fira Mono', sans-serif;
+  font-family: 'Fira Mono', serif;
+  line-height: 1.25;
 
   --font-weight-regular: 400;
   --font-weight-medium: 500;
@@ -8,7 +9,7 @@ html {
   --max-page-width: 1280px;
   --viewport-padding-lg: 25px;
   --background: #2a2a2a;
-  --text: white;
+  --text: #fafafa;
 
   background: var(--background);
   color: var(--text);

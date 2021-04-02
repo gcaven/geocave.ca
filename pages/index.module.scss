@@ -1,9 +1,13 @@
 .hero {
+  position: relative;
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #2a2a2a3f;
+  background: linear-gradient(180deg, rgba(42,42,42,0.5) 66%, rgba(42,42,42,1) 100%);
+  backdrop-filter: blur(5px);
 }
 
 .heroContent {
@@ -11,6 +15,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  pointer-events: none;
+  z-index: -1;
 }
 
 .imgContainer {
@@ -21,10 +36,31 @@
   border-radius: 50%;
   object-fit: cover;
   object-position: 0 0;
+  background: rgba(255,255,255,0.33);
+  border: 4px solid transparent !important;
 }
 
 .divider {
-  width: 150px;
-  height: 1px;
-  // background: ;
+  width: 300px;
+  height: 4px;
+  border-radius: 2px;
+  opacity: 0.5;
+  background: var(--text);
+  margin: 10px 0 15px;
+  mix-blend-mode: screen;
+}
+
+.subtitle {
+  opacity: 0.75;
+}
+
+.belowFold {
+  height: 100vh;
+  width: 100vw;
+}
+
+.sectionBlock {
+  max-width: var(--max-page-width);
+  padding: var(--viewport-padding-lg);
+  margin: auto;
 }
