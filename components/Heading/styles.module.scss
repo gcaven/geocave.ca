@@ -1,13 +1,13 @@
 .heading {
-  margin: 0;
-  font-weight: var(--font-weight-medium);
-  font-family: 'Times New Roman', serif;
+  margin: 0 0 16px;
+  font-weight: var(--font-weight-regular);
+  font-family: 'Sorts Mill Goudy', serif;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 h1.heading {
   font-size: 3em;
-  font-weight: var(--font-weight-regular);
 }
 
 h2.heading {

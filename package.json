@@ -22,8 +22,8 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
-    "deploy": "NODE_ENV=production npm run build && gh-pages -d build"
+    "deploy": "NODE_ENV=production yarn build && gh-pages -d build"
   }
 }

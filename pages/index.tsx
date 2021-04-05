@@ -5,6 +5,9 @@ import Heading from 'components/Heading';
 import Text from 'components/Text';
 import styles from './index.module.scss';
 
+// TODO: break into components
+// TODO: pages for each portfolio piece, with more detail
+
 const App = () => {
 
   return (
@@ -34,16 +37,70 @@ const App = () => {
           <Text customStyles={[styles.subtitle]}>Web & Mobile Developer</Text>
         </div>
       </div>
-      <div className={styles.belowFold}>
-        <div className={styles.sectionBlock}>
-          <Heading tag="h3">
-            Lorem Ipsum
-          </Heading>
-          <br />
-          <Text>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at metus quis arcu tincidunt gravida. Pellentesque mattis libero tortor, in vehicula nunc tempus pretium. Donec ut enim lobortis urna ultrices lacinia. Praesent id felis in tortor elementum rhoncus non at risus. Aliquam quis pellentesque sapien, in varius risus. Nunc sed congue ipsum. Phasellus suscipit turpis leo, vel tristique risus ornare vitae. Morbi vitae felis vitae ligula euismod euismod. Praesent scelerisque congue nunc id aliquam. Vivamus ornare, sem sit amet vulputate ornare, augue leo dictum quam, vitae aliquam dui orci et sem. In suscipit, urna id maximus dictum, lacus nunc tristique massa, at sodales nulla odio vitae ligula. Praesent lacinia porttitor mi, in gravida turpis pretium sodales.
-          </Text>
+      <div className={styles.sectionBlock}>
+        <Heading tag="h2">
+          It's nice to meet you!
+        </Heading>
+        <br />
+        <Text p align="center">
+          I'm Geoff Caven, a web developer based out of Atlantic Canada (🇨🇦) and currently working happily and remotely for 
+          {' '}<a href="https://nbx.com">Norwegian Block Exchange</a> (🇳🇴). I'm originally from Halifax, NS, but currently live in Charlottetown, PEI. 
+          {' '}
+        </Text>
+      </div>
+      <div className={styles.sectionBlock}>
+        <Heading tag="h2">
+          Here are my skills:
+        </Heading>
+        <br />
+        <div className={styles.skillGrid}>
+          <Text align="center">Javascript</Text>
+          <Text align="center">Typescript</Text>
+          <Text align="center">React</Text>
+          <Text align="center">Svelte</Text>
+          <Text align="center">React Native</Text>
+          <Text align="center">Redux</Text>
+          <Text align="center">Node</Text>
+          <Text align="center">Django</Text>
+          <Text align="center">Next.js</Text>
+          <Text align="center">Sass</Text>
+          <Text align="center">Jekyll</Text>
+          <Text align="center">GraphQL</Text>
+          <Text align="center">Apollo</Text>
+          <Text align="center">Microfrontends</Text>
+          <Text align="center">MongoDB</Text>
+          <Text align="center">PostreSQL</Text>
+          <Text align="center">AWS</Text>
+          <Text align="center">Google Cloud</Text>
+          <Text align="center">An eye for design</Text>
+          <Text align="center">Pride in my work</Text>
         </div>
+      </div>
+      <div className={styles.sectionBlock}>
+        <Heading tag="h2">
+          Take look at my portfolio
+        </Heading>
+        <br />
+        <div className={styles.portfolioGrid}>
+          <Text align="center">Norwgian Block Exchange</Text>
+          <Text align="center">Harbr</Text>
+          <Text align="center">Dloft</Text>
+          <Text align="center">Cadillac Fairview</Text>
+          <Text align="center">Buk</Text>
+          <Text align="center">Romeo Dallaire Child Soldiers Initiative</Text>
+          <Text align="center">RZA Sports</Text>
+          <Text align="center">Cadillac Fairview</Text>
+          <Text align="center">CrapMap</Text>
+        </div>
+      </div>
+      <div className={styles.sectionBlock}>
+        <Heading tag="h2">
+          Get in touch!
+        </Heading>
+        <br />
+        <Text p align="center">
+          TODO: contact section
+        </Text>
       </div>
     </div>
   );
