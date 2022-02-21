@@ -1,43 +1,35 @@
 self.__precacheManifest = [
   {
-    "revision": "15b2b9865e8ec5883e7f",
-    "url": "/static/css/main.2f701648.chunk.css"
+    "revision": "3729abb4d57babc7caa4",
+    "url": "/static/css/main.9343b791.chunk.css"
   },
   {
-    "revision": "15b2b9865e8ec5883e7f",
-    "url": "/static/js/main.15b2b986.chunk.js"
+    "revision": "3729abb4d57babc7caa4",
+    "url": "/static/js/main.87044975.chunk.js"
   },
   {
-    "revision": "fdfcfda2d9b1bf31db52",
-    "url": "/static/js/runtime~main.fdfcfda2.js"
+    "revision": "42ac5946195a7306e2a5",
+    "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "e0cdc0c1ed7346c95e07",
-    "url": "/static/js/2.e0cdc0c1.chunk.js"
+    "revision": "c3c22e4a4875327c3380",
+    "url": "/static/js/2.12f6bf56.chunk.js"
   },
   {
     "revision": "7ca0eb48d90e73d9e4fa711e7540a2e0",
     "url": "/static/media/reactjs.7ca0eb48.svg"
   },
   {
-    "revision": "4dcb60a7110eb9c846d913d56c91ad40",
-    "url": "/static/media/sass.4dcb60a7.svg"
-  },
-  {
     "revision": "fddb4d593ac1a4b64a19404d8b9bcb4d",
     "url": "/static/media/redux.fddb4d59.svg"
   },
   {
+    "revision": "4dcb60a7110eb9c846d913d56c91ad40",
+    "url": "/static/media/sass.4dcb60a7.svg"
+  },
+  {
     "revision": "dcad24b66072b5ac0abb2f5c778246d2",
     "url": "/static/media/nodejs.dcad24b6.svg"
-  },
-  {
-    "revision": "fe9caecc4cbf22dd7f3d0e67057808e1",
-    "url": "/static/media/django.fe9caecc.svg"
-  },
-  {
-    "revision": "32a4ba08de36cc022295d78a856094c0",
-    "url": "/static/media/apollo.32a4ba08.svg"
   },
   {
     "revision": "37c38ddb2aec5ab7d87f211d86688d53",
@@ -56,16 +48,28 @@ self.__precacheManifest = [
     "url": "/static/media/bg2.b12548ee.jpg"
   },
   {
-    "revision": "fd8f9aeba205d42fe8a2c5aadea9a6d1",
-    "url": "/static/media/jekyll.fd8f9aeb.svg"
+    "revision": "70888735a57bb4fd5b83425eec0e3a60",
+    "url": "/static/media/svelte.70888735.svg"
   },
   {
     "revision": "858b9d2fb29d19256c3084565585bcc8",
     "url": "/static/media/androidstudio.858b9d2f.svg"
   },
   {
-    "revision": "4e47fa91fb01ac85c8bb3b83fc0de13d",
-    "url": "/static/media/harbr.4e47fa91.png"
+    "revision": "32a4ba08de36cc022295d78a856094c0",
+    "url": "/static/media/apollo.32a4ba08.svg"
+  },
+  {
+    "revision": "568f57516114aa6dc56f4be485a5d256",
+    "url": "/static/media/harbr.568f5751.jpg"
+  },
+  {
+    "revision": "fe9caecc4cbf22dd7f3d0e67057808e1",
+    "url": "/static/media/django.fe9caecc.svg"
+  },
+  {
+    "revision": "87f095178c6e5375f2b89cdb04bac1c2",
+    "url": "/static/media/swift.87f09517.svg"
   },
   {
     "revision": "3bba94840bf9a6096adb81c6a391c481",
@@ -84,6 +88,10 @@ self.__precacheManifest = [
     "url": "/static/media/postgres-alt.a3cb389d.svg"
   },
   {
+    "revision": "fd8f9aeba205d42fe8a2c5aadea9a6d1",
+    "url": "/static/media/jekyll.fd8f9aeb.svg"
+  },
+  {
     "revision": "307b0f281dd7deba96bfbba02477c16b",
     "url": "/static/media/js.307b0f28.svg"
   },
@@ -96,6 +104,10 @@ self.__precacheManifest = [
     "url": "/static/media/android.3907e221.svg"
   },
   {
+    "revision": "0dd812001a15c8d22eb03367fa45bf4c",
+    "url": "/static/media/nbx.0dd81200.jpg"
+  },
+  {
     "revision": "eba497e06226e434c8ab2cbf42010510",
     "url": "/static/media/dloft.eba497e0.jpg"
   },
@@ -104,20 +116,8 @@ self.__precacheManifest = [
     "url": "/static/media/cf-retail.74443910.jpg"
   },
   {
-    "revision": "c07915dc7c9b85db06d74b66d3c5cf3d",
-    "url": "/static/media/buk.c07915dc.jpg"
-  },
-  {
     "revision": "bb62f5c270f8fd29345b672842843cd2",
     "url": "/static/media/rza.bb62f5c2.jpg"
-  },
-  {
-    "revision": "5ec568c2f24237a819899e7afeac7040",
-    "url": "/static/media/bnw.5ec568c2.jpg"
-  },
-  {
-    "revision": "6695fb4cfe0e23363694409847bb0a9f",
-    "url": "/static/media/tce.6695fb4c.jpg"
   },
   {
     "revision": "d8d04a21e9813c179db9e6d530edeaf7",
@@ -136,7 +136,7 @@ self.__precacheManifest = [
     "url": "/static/media/github.23ce4243.svg"
   },
   {
-    "revision": "f4adaf6fb7aef6e974cd79a6b49c72c7",
+    "revision": "ac1962563600cd73dcbd02796fa3d0f3",
     "url": "/index.html"
   }
 ];
