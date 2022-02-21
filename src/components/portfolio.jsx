@@ -7,8 +7,9 @@ import SkillItem from './skillitem';
 import ReactJS from '../assets/icons/reactjs.svg';
 import Redux from '../assets/icons/redux.svg';
 import Node from '../assets/icons/nodejs.svg';
-import Django from '../assets/icons/django.svg';
+// import Django from '../assets/icons/django.svg';
 import Sass from '../assets/icons/sass.svg';
+import Svelte from '../assets/icons/svelte.svg';
 import Mongo from '../assets/icons/mongodb.svg';
 import Apollo from '../assets/icons/apollo.svg';
 import GraphQL from '../assets/icons/graphql.svg';
@@ -20,17 +21,30 @@ import Android from '../assets/icons/android.svg';
 
 import AndroidStudio from '../assets/icons/androidstudio.svg';
 
-import harbr from '../assets/images/harbr.png';
+import nbx from '../assets/images/nbx.jpg';
+import harbr from '../assets/images/harbr.jpg';
 import dloft from '../assets/images/dloft.jpg';
 import cfretail from '../assets/images/cf-retail.jpg';
-import buk from '../assets/images/buk.jpg';
+// import buk from '../assets/images/buk.jpg';
 import rza from '../assets/images/rza.jpg';
-import bnw from '../assets/images/bnw.jpg';
-import tce from '../assets/images/tce.jpg';
+// import bnw from '../assets/images/bnw.jpg';
+// import tce from '../assets/images/tce.jpg';
 import crapmap from '../assets/images/crapmap.jpg';
 import caven from '../assets/images/caven.jpg';
 
 const projects = [
+  {
+    title: "NBX",
+    subtitle: "Welcome to the Future of Digital Wealth",
+    url: "https://nbx.com",
+    skills: [
+      <SkillItem label={"React"} icon={ReactJS} key={0}/>,
+      <SkillItem label={"Redux"} icon={Redux} key={1}/>,
+      <SkillItem label={"Sass"} icon={Sass} key={2}/>,
+      <SkillItem label={"Svelte"} icon={Svelte} key={3}/>,
+    ],
+    image: nbx
+  },
   {
     title: "Harbr Mobile",
     subtitle: "Mobile Construction Management",
@@ -78,18 +92,18 @@ const projects = [
      ],
     image: cfretail
   },
-  {
-    title: "Buk",
-    subtitle: "The Best Platform For Food",
-    url: "https://www.bukapp.co/",
-    skills: [
-      <SkillItem label={"React"} icon={ReactJS} key={0}/>,
-      <SkillItem label={"Redux"} icon={Redux} key={1}/>,
-      <SkillItem label={"Sass"} icon={Sass} key={2}/>,
-      <SkillItem label={"Django"} icon={Django} key={3}/>,
-     ],
-    image: buk
-  },
+  // {
+  //   title: "Buk",
+  //   subtitle: "The Best Platform For Food",
+  //   url: "https://www.bukapp.co/",
+  //   skills: [
+  //     <SkillItem label={"React"} icon={ReactJS} key={0}/>,
+  //     <SkillItem label={"Redux"} icon={Redux} key={1}/>,
+  //     <SkillItem label={"Sass"} icon={Sass} key={2}/>,
+  //     <SkillItem label={"Django"} icon={Django} key={3}/>,
+  //    ],
+  //   image: buk
+  // },
   {
     title: "RZA Sports",
     subtitle: "Bold Design for B-Ball",
@@ -100,26 +114,26 @@ const projects = [
      ],
     image: rza
   },
-  {
-    title: "TCE Interactive Resources",
-    subtitle: "A Patriotic Development",
-    url: "http://www.thecanadianencyclopedia.ca/en/learningcentre/",
-    skills: [
-      <SkillItem label={"Django"} icon={Django} key={0}/>,
-      <SkillItem label={"Sass"} icon={Sass} key={1}/>
-    ],
-    image: tce
-  },
-  {
-    title: "Brave New World",
-    subtitle: "Self-Promotion Taken to New Heights",
-    url: "http://bravenew.world",
-    skills: [
-      <SkillItem label={"React"} icon={ReactJS} key={0}/>,
-      <SkillItem label={"Sass"} icon={Sass} key={1}/>
-    ],
-    image: bnw
-  },
+  // {
+  //   title: "TCE Interactive Resources",
+  //   subtitle: "A Patriotic Development",
+  //   url: "http://www.thecanadianencyclopedia.ca/en/learningcentre/",
+  //   skills: [
+  //     <SkillItem label={"Django"} icon={Django} key={0}/>,
+  //     <SkillItem label={"Sass"} icon={Sass} key={1}/>
+  //   ],
+  //   image: tce
+  // },
+  // {
+  //   title: "Brave New World",
+  //   subtitle: "Self-Promotion Taken to New Heights",
+  //   url: "http://bravenew.world",
+  //   skills: [
+  //     <SkillItem label={"React"} icon={ReactJS} key={0}/>,
+  //     <SkillItem label={"Sass"} icon={Sass} key={1}/>
+  //   ],
+  //   image: bnw
+  // },
   {
     title: "CrapMap",
     subtitle: "For When You Have To Go, On The Go",

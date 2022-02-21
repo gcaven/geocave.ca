@@ -7,11 +7,12 @@ import Redux from '../assets/icons/redux.svg';
 import Node from '../assets/icons/nodejs.svg';
 import Django from '../assets/icons/django.svg';
 import Sass from '../assets/icons/sass.svg';
-import Jekyll from '../assets/icons/jekyll.svg';
-import Apollo from '../assets/icons/apollo.svg';
+import Svelte from '../assets/icons/svelte.svg';
+// import Jekyll from '../assets/icons/jekyll.svg';
+// import Apollo from '../assets/icons/apollo.svg';
 
 // import Android from '../assets/icons/android.svg';
-// import Swift from '../assets/icons/swift.svg';
+import Swift from '../assets/icons/swift.svg';
 
 import AWS from '../assets/icons/aws.svg';
 import GCP from '../assets/icons/gcp.svg';
@@ -40,8 +41,8 @@ class Skills extends React.PureComponent {
             <SkillItem label={"Node"} icon={Node}/>
             <SkillItem label={"Django"} icon={Django}/>
             <SkillItem label={"Sass"} icon={Sass}/>
-            <SkillItem label={"Jekyll"} icon={Jekyll}/>
-            <SkillItem label={"Apollo"} icon={Apollo}/>
+            <SkillItem label={"Swift"} icon={Swift}/>
+            <SkillItem label={"Svelte"} icon={Svelte}/>
           </div>
 
           <div className="third nomargin" />
